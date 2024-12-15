@@ -204,17 +204,17 @@
     <!-- Features Section -->
     <section class="features">
         <div class="feature">
-            <img src="kukis keju.jpg" alt="Cookies Keju">
+            <img src="asset/image/kukis coklat.jpg" alt="Cookies Keju">
             <h3>Cookies Keju</h3>
             <p>Paduan rasa keju yang melimpah dengan topping pilihan!</p>
         </div>
         <div class="feature">
-            <img src="soft kukis.jpg" alt="Soft Cookies">
+            <img src="asset/image/soft kukis.jpg" alt="Soft Cookies">
             <h3>Soft Cookies</h3>
             <p>Cookies dengan kelembutan rasa yang lezat!</p>
         </div>
         <div class="feature">
-            <img src="mini kukis.jpg" alt="Mini Cookies">
+            <img src="asset/image/mini kukis.jpg" alt="Mini Cookies">
             <h3>Mini Cookies</h3>
             <p>Cookies Mini enak untuk cemilan saat gabut!</p>
         </div>
