@@ -42,7 +42,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light main_box">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<a class="navbar-brand logo_h" href="index.php"><img src="img/logo kukis.png" alt="logo" width="70px" height="auto"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -52,36 +52,26 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Shop</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="category.html">Shop Category</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-product.html">Product Details</a></li>
-									<li class="nav-item"><a class="nav-link" href="checkout.html">Product Checkout</a></li>
-									<li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
-									<li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+									<li class="nav-item"><a class="nav-link" href="category.php">Shop Category</a></li>
+									<li class="nav-item"><a class="nav-link" href="checkout.php">Product Checkout</a></li>
+									<li class="nav-item"><a class="nav-link" href="cart.php">Shopping Cart</a></li>
+									<li class="nav-item"><a class="nav-link" href="confirmation.php">Confirmation</a></li>
 								</ul>
 							</li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-									<li class="nav-item"><a class="nav-link" href="tracking.html">Tracking</a></li>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+									<li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+									<li class="nav-item"><a class="nav-link" href="register.php">Register</a></li>
 								</ul>
 							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
@@ -115,12 +105,9 @@
               <div class="row single-slide align-items-center d-flex">
                 <div class="col-lg-5 col-md-6">
                   <div class="banner-content">
-                    <h1>Nike New <br />Collection!</h1>
+                    <h1>Soft Cookies <br />Coklat</h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud
-                      exercitation.
+                    Rasakan kelezatan cookies coklat yang renyah di luar, lembut di dalam, dengan taburan coklat premium yang lumer di setiap gigitan. Dibuat dengan bahan-bahan pilihan dan cinta, cookies ini cocok untuk teman santai, hadiah spesial, atau camilan keluarga.
                     </p>
                     <div class="add-bag d-flex align-items-center"></div>
                   </div>
@@ -129,40 +116,13 @@
                   <div class="banner-img">
                     <img
                       class="img-fluid"
-                      src="img/banner/banner-img.png"
-                      alt=""
+                      src="img/banner/cookies.png"
+                      alt="banner" width="65px" height="auto"
                     />
                   </div>
                 </div>
               </div>
-              <!-- single-slide -->
-              <div class="row single-slide">
-                <div class="col-lg-5">
-                  <div class="banner-content">
-                    <h1>Nike Neww <br />Collection!</h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud
-                      exercitation.
-                    </p>
-                    <div class="add-bag d-flex align-items-center">
-                      <a class="add-btn" href=""
-                        ><span class="lnr lnr-cross"></span
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-7">
-                  <div class="banner-img">
-                    <img
-                      class="img-fluid"
-                      src="img/banner/banner-img.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
+               <div class="banner-content">              
             </div>
           </div>
         </div>
@@ -221,102 +181,96 @@
 
     <!-- Start category Area -->
     <section class="category-area">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 col-md-12">
-            <div class="row">
-              <div class="col-lg-8 col-md-8">
-                <div class="single-deal">
-                  <div class="overlay"></div>
-                  <img
-                    class="img-fluid w-100"
-                    src="img/category/c1.jpg"
-                    alt=""
-                  />
-                  <a
-                    href="img/category/c1.jpg"
-                    class="img-pop-up"
-                    target="_blank"
-                  >
-                    <div class="deal-details">
-                      <h6 class="deal-title">Sneaker for Sports</h6>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="single-deal">
-                  <div class="overlay"></div>
-                  <img
-                    class="img-fluid w-100"
-                    src="img/category/c2.jpg"
-                    alt=""
-                  />
-                  <a
-                    href="img/category/c2.jpg"
-                    class="img-pop-up"
-                    target="_blank"
-                  >
-                    <div class="deal-details">
-                      <h6 class="deal-title">Sneaker for Sports</h6>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="single-deal">
-                  <div class="overlay"></div>
-                  <img
-                    class="img-fluid w-100"
-                    src="img/category/c3.jpg"
-                    alt=""
-                  />
-                  <a
-                    href="img/category/c3.jpg"
-                    class="img-pop-up"
-                    target="_blank"
-                  >
-                    <div class="deal-details">
-                      <h6 class="deal-title">Product for Couple</h6>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-8 col-md-8">
-                <div class="single-deal">
-                  <div class="overlay"></div>
-                  <img
-                    class="img-fluid w-100"
-                    src="img/category/c4.jpg"
-                    alt=""
-                  />
-                  <a
-                    href="img/category/c4.jpg"
-                    class="img-pop-up"
-                    target="_blank"
-                  >
-                    <div class="deal-details">
-                      <h6 class="deal-title">Sneaker for Sports</h6>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-12">
+        <div class="row">
+          <!-- Gambar 1 -->
+          <div class="col-lg-6 col-md-6 mb-4">
             <div class="single-deal">
               <div class="overlay"></div>
-              <img class="img-fluid w-100" src="img/category/c5.jpg" alt="" />
-              <a href="img/category/c5.jpg" class="img-pop-up" target="_blank">
+              <img
+                class="img-fluid uniform-img"
+                src="img/category/cookies1.jpeg"
+                alt="Delicious Chocolate Cookies"
+              />
+              <a href="img/category/cookies1.jpeg" class="img-pop-up" target="_blank">
                 <div class="deal-details">
-                  <h6 class="deal-title">Sneaker for Sports</h6>
+                  <h6 class="deal-title">Delicious Chocolate Cookies</h6>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Gambar 2 -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="single-deal">
+              <div class="overlay"></div>
+              <img
+                class="img-fluid uniform-img"
+                src="img/category/cookies2.jpeg"
+                alt="Freshly Baked Cookies"
+              />
+              <a href="img/category/cookies2.jpeg" class="img-pop-up" target="_blank">
+                <div class="deal-details">
+                  <h6 class="deal-title">Freshly Baked Cookies</h6>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Gambar 3 -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="single-deal">
+              <div class="overlay"></div>
+              <img
+                class="img-fluid uniform-img"
+                src="img/category/cookies3.jpeg"
+                alt="Red Velvet Cookies"
+              />
+              <a href="img/category/cookies3.jpeg" class="img-pop-up" target="_blank">
+                <div class="deal-details">
+                  <h6 class="deal-title">Red Velvet Cookies</h6>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Gambar 4 -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="single-deal">
+              <div class="overlay"></div>
+              <img
+                class="img-fluid uniform-img"
+                src="img/category/cookies4.jpeg"
+                alt="Double Chocolate Delight"
+              />
+              <a href="img/category/cookies4.jpeg" class="img-pop-up" target="_blank">
+                <div class="deal-details">
+                  <h6 class="deal-title">Double Chocolate Delight</h6>
                 </div>
               </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
+      <!-- Cookies 7 -->
+      <div class="col-lg-4 col-md-10">
+        <div class="single-deal">
+          <div class="overlay"></div>
+          <img
+            class="img-fluid category-img"
+            src="img/category/cookies7.jpeg"
+            alt="Classic Chocolate Chip Cookies"
+          />
+          <a href="img/category/cookies7.jpeg" class="img-pop-up" target="_blank">
+            <div class="deal-details">
+              <h6 class="deal-title">Classic Chocolate Chip Cookies</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     <!-- End category Area -->
 
     <!-- start product Area -->
@@ -893,7 +847,7 @@
             <div class="active-exclusive-product-slider">
               <!-- single exclusive carousel -->
               <div class="single-exclusive-slider">
-                <img class="img-fluid" src="img/product/e-p1.png" alt="" />
+                <img class="img-fluid" src="img/product/cookies1.png" alt="" />
                 <div class="product-details">
                   <div class="price">
                     <h6>$150.00</h6>
@@ -910,7 +864,7 @@
               </div>
               <!-- single exclusive carousel -->
               <div class="single-exclusive-slider">
-                <img class="img-fluid" src="img/product/e-p1.png" alt="" />
+                <img class="img-fluid" src="img/product/cookies2.png" alt="" />
                 <div class="product-details">
                   <div class="price">
                     <h6>$150.00</h6>

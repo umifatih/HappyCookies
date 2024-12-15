@@ -4716,7 +4716,20 @@ input[type=submit].btn-block {
 .card-deck .card {
     margin-bottom: 15px
 }
+.uniform-img {
+    width: 100%; /* Lebar penuh */
+    height: 250px; /* Tinggi seragam */
+    object-fit: cover; /* Menjaga proporsi gambar dan memastikan rapi */
+    border-radius: 8px; /* Opsional: Membuat sudut gambar lebih lembut */
+  }
 
+  .category-img {
+    width: 100%; /* Lebar penuh */
+    height: 550px; /* Tinggi seragam */
+    object-fit: cover; /* Menjaga proporsi gambar dan memastikan rapi */
+    border-radius: 8px; /* Opsional: Membuat sudut gambar lebih lembut */
+  }
+  
 @media (min-width:576px) {
     .card-deck {
         -ms-flex-flow: row wrap;
