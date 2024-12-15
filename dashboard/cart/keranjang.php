@@ -73,10 +73,10 @@
     <header class="p-3 bg-light border-bottom">
         <div class="container d-flex align-items-center justify-content-between">
             <div class="logo">
-                <img src="logo kukis.png" alt="Kukis">
+                <img src="asset/image/logo kukis.png" alt="Kukis">
             </div>
             <!-- Tombol Kembali ke Dashboard -->
-            <a href="dashboard.html" class="btn btn-outline-primary">Kembali ke Dashboard</a>
+            <a href="dashboard/dashboard.php" class="btn btn-outline-primary">Kembali ke Dashboard</a>
         </div>
     </header>
 
@@ -97,7 +97,7 @@
         <p>Barang yang telah Anda pilih:</p>
         <ul id="keranjang-list" class="list-group mb-3"></ul>
         <p>Total: <span id="total" class="fw-bold">Rp 0</span></p>
-        <a href="checkout.html" class="btn btn-success w-100" id="checkout-button" style="display:none;">Lanjut ke Checkout</a>
+        <a href="dashboard/cart/checkout.php" class="btn btn-success w-100" id="checkout-button" style="display:none;">Lanjut ke Checkout</a>
     </section>
 
     <footer class="bg-dark text-white text-center py-3">

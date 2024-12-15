@@ -97,12 +97,12 @@
             <!-- Sidebar -->
             <aside class="col-12 col-md-3 sidebar">
                 <div class="logo mb-4 text-center">
-                    <img src="logo kukis.png" alt="Kukis">
+                    <img src="asset/image/logo kukis.png" alt="Kukis">
                 </div>
                 <nav class="menu text-center text-md-start">
-                    <a href="dashboard.html">Home</a>
-                    <a href="keranjang.html">Keranjang</a>
-                    <a href="home page.html">Logout</a>
+                    <a href="dashboard/dashboard.php">Home</a>
+                    <a href="dashboard/cart/keranjang.php">Keranjang</a>
+                    <a href="dashboard/home page.php">Logout</a>
                 </nav>
             </aside>
 
@@ -111,7 +111,7 @@
                 <h1 class="mb-4">Halaman Akun</h1>
                 <div class="card shadow-sm p-3">
                     <h2>Informasi Akun</h2>
-                    <a href="edit-profile.html" class="btn btn-primary">Edit Profil</a>
+                    <a href="edit-profile.php" class="btn btn-primary">Edit Profil</a>
                 </div>
             </main>
         </div>

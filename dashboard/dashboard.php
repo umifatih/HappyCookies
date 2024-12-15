@@ -161,13 +161,13 @@
 <body>
     <header>
         <div class="logo">
-            <img src="logo kukis.png" alt="Logo">
+            <img src="asset/image/logo kukis.png" alt="Logo">
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="dashboard.html">Home</a></li>
-                <li><a href="keranjang.html">Keranjang</a></li>
-                <li><a href="akun.html">Akun</a></li>
+                <li><a href="dashboard/dashboard.php">Home</a></li>
+                <li><a href="dashboard/cart/keranjang.php">Keranjang</a></li>
+                <li><a href="account/profile/akun.php">Akun</a></li>
             </ul>
         </nav>
     </header>

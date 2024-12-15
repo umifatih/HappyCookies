@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kukis - Login</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="account/login/login.css">
 </head>
 <body>
     <header>
         <nav>
             <ul class="menu">
-                <li><a href="login.html">Login</a></li>
+                <li><a href="account/login/login.php">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +27,7 @@
             
             <button type="submit" class="cta-button">Masuk</button>
         </form>
-        <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+        <p>Belum punya akun? <a href="account/register/register.php">Daftar di sini</a></p>
     </section>
 
     <footer>

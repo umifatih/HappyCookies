@@ -86,15 +86,15 @@
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
-                    <img src="logo kukis.png" alt="Kukis">
+                    <img src="asset/image/logo kukis.png" alt="Kukis">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto menu">
-                        <li class="nav-item"><a class="nav-link active" href="admin.html">Admin</a></li>
-                        <li class="nav-item"><a class="nav-link" href="akun.html">Akun</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="admin.php">Admin</a></li>
+                        <li class="nav-item"><a class="nav-link" href="account/profile/akun.php">Akun</a></li>
                     </ul>
                 </div>
             </div>
@@ -140,7 +140,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="soft kukis.jpg" class="card-img-top" alt="Soft Cookies">
+                            <img src="asset/image/soft kukis.jpg" class="card-img-top" alt="Soft Cookies">
                             <div class="card-body">
                                 <h5 class="card-title">Soft Cookies</h5>
                                 <p class="card-text">Rp 30.000</p>
@@ -153,7 +153,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="mini kukis.jpg" class="card-img-top" alt="Mini Cookies">
+                            <img src="asset/image/mini kukis.jpg" class="card-img-top" alt="Mini Cookies">
                             <div class="card-body">
                                 <h5 class="card-title">Mini Cookies</h5>
                                 <p class="card-text">Rp 20.000</p>
@@ -166,7 +166,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="chocolate kukis.jpg" class="card-img-top" alt="Chocolate Chip Cookies">
+                            <img src="asset/image/chocolate kukis.jpg" class="card-img-top" alt="Chocolate Chip Cookies">
                             <div class="card-body">
                                 <h5 class="card-title">Chocolate Chip Cookies</h5>
                                 <p class="card-text">Rp 28.000</p>
@@ -179,7 +179,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="kukis coklat.jpg" class="card-img-top" alt="Cookies Coklat">
+                            <img src="asset/image/kukis coklat.jpg" class="card-img-top" alt="Cookies Coklat">
                             <div class="card-body">
                                 <h5 class="card-title">Cookies Coklat</h5>
                                 <p class="card-text">Rp 22.000</p>
@@ -192,7 +192,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="oatmeal kukis.jpg" class="card-img-top" alt="Oatmeal Cookies">
+                            <img src="asset/image/oatmeal kukis.jpg" class="card-img-top" alt="Oatmeal Cookies">
                             <div class="card-body">
                                 <h5 class="card-title">Oatmeal Cookies</h5>
                                 <p class="card-text">Rp 27.000</p>
