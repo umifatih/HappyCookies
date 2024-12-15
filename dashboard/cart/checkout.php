@@ -11,7 +11,7 @@
     <!-- Header -->
     <header class="p-3 bg-light border-bottom">
         <div class="container">
-            <h1 class="text-center">Checkout</h1>
+            <h1 class="text-center">Checkouttt</h1>
         </div>
     </header>
 
