@@ -7,6 +7,7 @@
     <title>Kukis - Home Page</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <style>
         /* Reset some basic styles */
         * {
@@ -164,7 +165,7 @@
     </style>
     <script>
         function redirectToLogin() {
-            window.location.href = "login.html";
+            window.location.href = "account/login/login.php";
         }
 
         window.onload = function() {
@@ -182,14 +183,14 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand logo" href="#">
-                    <img src="logo kukis.png" alt="Kukis">
+                    <img src="asset/image/logo kukis.png" alt="Kukis">
                 </a>
                 <div class="menu">
                     <h1>Selamat Datang di Kukis!</h1>
                 </div>
                 <div class="auth-menu">
-                    <a href="login.html">Login</a>
-                    <a href="register.html">Daftar</a>
+                    <a href="account/login/login.php">Login</a>
+                    <a href="account/register/register.php">Daftar</a>
                 </div>
             </div>
         </nav>        
@@ -198,7 +199,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>Nikmati Cookies lezat, hidangan terbaik dan enak!</h1>
-        <a href="#" class="cta-button">Pesan Sekarang</a>
+        <a href="account/login/login.php" class="cta-button">Pesan Sekarang</a>
     </section>
 
     <!-- Features Section -->
