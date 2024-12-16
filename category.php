@@ -72,31 +72,21 @@
 						</li>
 
 						<li class="main-nav-list"><a data-toggle="collapse" href="#kuetart" aria-expanded="false" aria-controls="kuetart"><span
-								 class="lnr lnr-arrow-right"></span>Kue Tart</a>
+								 class="lnr lnr-arrow-right"></span>Mini Cookies</a>
 							<ul class="collapse" id="kuetart" data-toggle="collapse" aria-expanded="false" aria-controls="kuetart">
-								<li class="main-nav-list child"><a href="#">Tiramisu Cake</a></li>
-								<li class="main-nav-list child"><a href="#">Peach Cake</a></li>
-								<li class="main-nav-list child"><a href="#">Choco Cake</a></li>
-								<li class="main-nav-list child"><a href="#">Black Forest Cake</a></li>
-								<li class="main-nav-list child"><a href="#">Mocca Cake</a></li>
+								<li class="main-nav-list child"><a href="#">Tiramisu </a></li>
+								<li class="main-nav-list child"><a href="#">Choco </a></li>
+								<li class="main-nav-list child"><a href="#">Black Forest</a></li>
+								<li class="main-nav-list child"><a href="#">Mocca</a></li>
 							</ul>
 						</li>
 						<li class="main-nav-list"><a data-toggle="collapse" href="#Brownies" aria-expanded="false" aria-controls="Brownies"><span
-								 class="lnr lnr-arrow-right"></span>Brownies</a>
+								 class="lnr lnr-arrow-right"></span>Cookie Bomb</a>
 							<ul class="collapse" id="Brownies" data-toggle="collapse" aria-expanded="false" aria-controls="Brownies">
-								<li class="main-nav-list child"><a href="#">Brownies Bite</a></li>
-								<li class="main-nav-list child"><a href="#">Brownies Matcha</a></li>
-								<li class="main-nav-list child"><a href="#">Brownies Original</a></li>
-								<li class="main-nav-list child"><a href="#">Brownies Tiramisu</a></li>
-								<li class="main-nav-list child"><a href="#">Brownies Choco Crunchy</a></li>
-							</ul>
-						</li>
-						<li class="main-nav-list"><a data-toggle="collapse" href="#pudding" aria-expanded="false" aria-controls="pudding"><span
-								 class="lnr lnr-arrow-right"></span>Pudding</a>
-							<ul class="collapse" id="pudding" data-toggle="collapse" aria-expanded="false" aria-controls="pudding">
-								<li class="main-nav-list child"><a href="#">Puding Coklat</a></li>
-								<li class="main-nav-list child"><a href="#">Puding Vanila</a></li>
-								<li class="main-nav-list child"><a href="#">Puding Taro</a></li>
+								<li class="main-nav-list child"><a href="#"> Matcha</a></li>
+								<li class="main-nav-list child"><a href="#"> Original</a></li>
+								<li class="main-nav-list child"><a href="#"> Tiramisu</a></li>
+								<li class="main-nav-list child"><a href="#"> Cheese</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -106,13 +96,7 @@
 			<div class="col-xl-9 col-lg-8 col-md-7">
 				<!-- Start Filter Bar -->
 				<div class="filter-bar d-flex flex-wrap align-items-center">
-					<div class="sorting">
-						<select>
-							<option value="1">Default sorting</option>
-							<option value="1">Default sorting</option>
-							<option value="1">Default sorting</option>
-						</select>
-					</div>
+					
 					<div class="sorting mr-auto">
 						<select>
 							<option value="1">Show 1</option>
@@ -123,8 +107,6 @@
 					<div class="pagination">
 						<a href="#" class="prev-arrow"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
 						<a href="#" class="active">1</a>
-						<a href="#">2</a>
-						<a href="#">3</a>
 						<a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 					</div>
 				</div>
@@ -145,7 +127,7 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="cart.php" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
@@ -162,18 +144,18 @@
 							<div class="single-product">
 								<img class="img-fluid" src="img/category/cookies1.jpeg" alt="">
 								<div class="product-details">
-									<h6>COOKIES DOUBLE CHOCO </h6>
+									<h6>COOKIES DOUBLE CHOCO</h6>
 									<div class="price">
 										<h6>Rp 10.000</h6>
 										<h6 class="l-through">RP 20.000</h6>
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="cart.php" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="#" class="social-info">
+										<a href="single-product-cdc.php" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -193,31 +175,7 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
-											<span class="ti-bag"></span>
-											<p class="hover-text">add to bag</p>
-										</a>
-										<a href="" class="social-info">
-											<span class="lnr lnr-move"></span>
-											<p class="hover-text">view more</p>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- single product -->
-						<div class="col-lg-4 col-md-6">
-							<div class="single-product">
-								<img class="img-fluid" src="img/category/cookies1.jpeg" alt="">
-								<div class="product-details">
-									<h6>COOKIES DOUBLE CHOCO </h6>
-									<div class="price">
-										<h6>Rp 10.000</h6>
-										<h6 class="l-through">RP 20.000</h6>
-									</div>
-									<div class="prd-bottom">
-
-										<a href="" class="social-info">
+										<a href="cart.php" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
@@ -241,7 +199,7 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="cart.php" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
@@ -265,7 +223,31 @@
 									</div>
 									<div class="prd-bottom">
 
+										<a href="cart.php" class="social-info">
+											<span class="ti-bag"></span>
+											<p class="hover-text">add to bag</p>
+										</a>
 										<a href="" class="social-info">
+											<span class="lnr lnr-move"></span>
+											<p class="hover-text">view more</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- single product -->
+						<div class="col-lg-4 col-md-6">
+							<div class="single-product">
+								<img class="img-fluid" src="img/category/cookies1.jpeg" alt="">
+								<div class="product-details">
+									<h6>COOKIES DOUBLE CHOCO </h6>
+									<div class="price">
+										<h6>Rp 10.000</h6>
+										<h6 class="l-through">RP 20.000</h6>
+									</div>
+									<div class="prd-bottom">
+
+										<a href="cart.php" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
@@ -279,25 +261,6 @@
 						</div>
 					</div>
 				</section>
-				<!-- End Best Seller -->
-				<!-- Start Filter Bar -->
-				<div class="filter-bar d-flex flex-wrap align-items-center">
-					<div class="sorting mr-auto">
-						<select>
-							<option value="1">Show 1</option>
-							<option value="1">Show 2</option>
-							<option value="1">Show 3 </option>
-						</select>
-					</div>
-					<div class="pagination">
-						<a href="#" class="prev-arrow"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
-						<a href="#" class="active">1</a>
-						<a href="#">2</a>
-						<a href="#">3</a>
-						<a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-					</div>
-				</div>
-				<!-- End Filter Bar -->
 			</div>
 		</div>
 	</div>

@@ -15,7 +15,7 @@
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <<title>Happy Cookies</title>
+    <title>Happy Cookies</title>
 
     <!--
             CSS

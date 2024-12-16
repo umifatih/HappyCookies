@@ -61,7 +61,7 @@
 				<div class="col-lg-6">
 					<div class="s_Product_carousel">
 						<div class="single-prd-item">
-							<img class="img-fluid" src="img/product/p4.jpeg" alt="">
+							<img class="img-fluid" src="img/category/cookies2.jpeg" alt="">
 						</div>
 						<div class="single-prd-item">
 							<img class="img-fluid" src="img/category/s-p1.jpg" alt="">
@@ -73,8 +73,8 @@
 				</div>
 				<div class="col-lg-5 offset-lg-1">
 					<div class="s_product_text">
-						<h3>Cream Cheese Red Velvet</h3>
-						<h2>Rp15.000</h2>
+						<h3>COOKIES DOUBLE CHOCO</h3>
+						<h2>Rp10.000</h2>
 						<ul class="list">
 							<li><a class="active" href="#"><span>Category</span> : Cookies</a></li>
 							<li><a href="#"><span>Availibility</span> : In Stock</a></li>
