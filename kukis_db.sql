@@ -40,9 +40,10 @@ CREATE TABLE `produk` (
 --
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
-  `Email` varchar(100) NOT NULL,
-  `Kata sandi` varchar(225) NOT NULL
+  `id` int(11) NOT NULL, 
+  `username` varchar(200) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(225) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --

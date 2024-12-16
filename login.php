@@ -17,7 +17,7 @@
 	<!-- Site Title -->
 	<title>Happy Cookies</title>
 
-	<!--
+	<!-- 
 		CSS
 		============================================= -->
 	<link rel="stylesheet" href="css/linearicons.css">
@@ -33,7 +33,11 @@
 <body>
 
 	<!-- Start Header Area -->
-	 <?php include 'header.php'; ?>
+	 <?php 
+	 include 'header.php'; 
+	 include 'koneksi.php'; 
+	 include 'login_process.php';
+	 ?>
 	<!-- End Header Area -->
 
 	<!-- Start Banner Area -->
@@ -64,17 +68,20 @@
 							<p>There are advances being made in science and technology everyday, and a good example of this is the</p>
 							<a class="primary-btn" href="registration.php">Create an Account</a>
 						</div>
-					</div>
+					</div> 
 				</div>
 				<div class="col-lg-6">
 					<div class="login_form_inner">
 						<h3>Log in to enter</h3>
-						<form class="row login_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+						<form class="row login_form" action="login_process.php" method="post" id="loginForm" novalidate="novalidate">
 							<div class="col-md-12 form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'" required>
 							</div>
 							<div class="col-md-12 form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+								<input type="email" class="form-control" id="name" name="name" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" required>
+							</div>
+							<div class="col-md-12 form-group">
+								<input type="password" class="form-control" id="name" name="name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required>
 							</div>
 							<div class="col-md-12 form-group">
 								<div class="creat_account">
@@ -95,8 +102,10 @@
 	<!--================End Login Box Area =================-->
 
 	<!-- start footer Area -->
-	 <?php include 'footer.php'; ?>
+	 <?php include 'footer.php'; ?> 
 	<!-- End footer Area -->
+
+
 
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>

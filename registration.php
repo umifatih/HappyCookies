@@ -33,7 +33,10 @@
 <body>
 
 	<!-- Start Header Area -->
-	 <?php include 'header.php'; ?>
+	 <?php 
+	 include 'header.php'; 
+	 include 'koneksi.php';
+	 ?>
 	<!-- End Header Area -->
 
 	<!-- Start Banner Area -->
@@ -72,6 +75,9 @@
 						<form class="row login_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
 							<div class="col-md-12 form-group">
 								<input type="text" class="form-control" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
+							</div> 
+							<div class="col-md-12 form-group">
+								<input type="email" class="form-control" id="name" name="name" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
 							</div>
 							<div class="col-md-12 form-group">
 								<input type="text" class="form-control" id="name" name="name" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
