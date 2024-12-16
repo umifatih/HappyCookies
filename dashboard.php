@@ -70,10 +70,6 @@
 									<li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
 									<li class="nav-item"><a class="nav-link" href="registration.php">Register</a></li>
 								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-						</ul>
-						
 					</div>
 				</div>
 			</nav>
@@ -295,7 +291,7 @@
                     <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="login.php" class="social-info">
+                    <a href="cart.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
                     </a>             
@@ -314,7 +310,7 @@
                     <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="login.php" class="social-info">
+                    <a href="cart.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
                     </a>
@@ -333,7 +329,7 @@
                     <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="login.php" class="social-info">
+                    <a href="cart.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
                     </a>
@@ -352,7 +348,7 @@
                     <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="login.php" class="social-info">
+                    <a href="cart.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
                     </a>
@@ -390,7 +386,7 @@
                     <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="login.php" class="social-info">
+                    <a href="cart.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
                     </a>
@@ -409,7 +405,7 @@
                     <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="login.php" class="social-info">
+                    <a href="cart.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
                     </a>
@@ -428,7 +424,7 @@
                     <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="login.php" class="social-info">
+                    <a href="cart.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
                     </a>
@@ -447,7 +443,7 @@
                     <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="login.php" class="social-info">
+                    <a href="cart.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
                     </a>
@@ -494,7 +490,7 @@
                 </div>
               </div>
             </div>
-            <a href="" class="primary-btn">Shop Now</a>
+            <a href="cart.php" class="primary-btn">Shop Now</a>
           </div>
           <div class="col-lg-6 no-padding exclusive-right">
             <div class="active-exclusive-product-slider">
@@ -510,7 +506,7 @@
                   <div
                     class="add-bag d-flex align-items-center justify-content-center"
                   >
-                    <a class="add-btn" href=""><span class="ti-bag"></span></a>
+                    <a class="add-btn" href="cart.php"><span class="ti-bag"></span></a>
                     <span class="add-text text-uppercase">Add to Bag</span>
                   </div>
                 </div>
@@ -527,7 +523,7 @@
                   <div
                     class="add-bag d-flex align-items-center justify-content-center"
                   >
-                    <a class="add-btn" href=""><span class="ti-bag"></span></a>
+                    <a class="add-btn" href="cart.php"><span class="ti-bag"></span></a>
                     <span class="add-text text-uppercase">Add to Bag</span>
                   </div>
                 </div>

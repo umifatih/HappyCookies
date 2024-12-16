@@ -8,16 +8,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $password = isset($_POST['password']) ? $_POST['password'] : '';
 
-    // Validasi input kosong
-    if (empty($id) || empty($username) || empty($email) || empty($password)) {
-        echo "Semua field harus diisi!";
-    } else {
-        // Gunakan prepared statements untuk keamanan
-        $stmt = $conn->prepare("SELECT * FROM users WHERE id = ? AND username = ? AND email = ?");
-        $stmt->bind_param("sss", $id, $username, $email);
-        $stmt->execute();
-        $result = $stmt->get_result();
-
         if ($result->num_rows > 0) {
             $user = $result->fetch_assoc(); 
 
@@ -25,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if (password_verify($password, $user['password'])) {
                 // Login berhasil
                 echo "Login berhasil!";
-                header("Location: header.php");
+                header("Location: dashboard.php");
                 exit(); // Hentikan eksekusi setelah redirect
             } else {
                 // Jika password salah
@@ -36,13 +26,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "Data pengguna tidak ditemukan.";
         }
     }
-} 
+
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['name'];
-    $email = $_POST['email'];
-    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+    $email = $_POST['name'];
+    $password = password_verify($_POST['name'], PASSWORD_BCRYPT);
 
     $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
 

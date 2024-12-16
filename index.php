@@ -51,30 +51,34 @@
 					</button>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Shop</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="category.php">Shop Category</a></li>
-									<li class="nav-item"><a class="nav-link" href="checkout.php">Product Checkout</a></li>
-									<li class="nav-item"><a class="nav-link" href="cart.php">Shopping Cart</a></li>
-									<li class="nav-item"><a class="nav-link" href="confirmation.php">Confirmation</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
-									<li class="nav-item"><a class="nav-link" href="registration.php">Register</a></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-						</ul>
-						
-					</div>
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                  <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
+                  <li class="nav-item submenu dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                          aria-expanded="false">Shop</a>
+                      <ul class="dropdown-menu">
+                          <li class="nav-item">
+                              <a class="nav-link" href="category.php" onclick="checkLogin(event)">Shop Category</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="checkout.php" onclick="checkLogin(event)">Product Checkout</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="cart.php" onclick="checkLogin(event)">Shopping Cart</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="confirmation.php" onclick="checkLogin(event)">Confirmation</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item submenu dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                          aria-expanded="false">Pages</a>
+                      <ul class="dropdown-menu">
+                          <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+                          <li class="nav-item"><a class="nav-link" href="registration.php">Register</a></li>
+                      </ul>
+          </div>
 				</div>
 			</nav>
 		</div>
@@ -494,7 +498,7 @@
                 </div>
               </div>
             </div>
-            <a href="" class="primary-btn">Shop Now</a>
+            <a href="login.php" class="primary-btn">Shop Now</a>
           </div>
           <div class="col-lg-6 no-padding exclusive-right">
             <div class="active-exclusive-product-slider">
@@ -755,6 +759,20 @@
 
 
     <!-- End footer Area -->
+
+
+    <script>
+    // Simulasi status login pengguna
+    const isLoggedIn = false; // Ubah ke `true` jika pengguna sudah login
+
+    function checkLogin(event) {
+        if (!isLoggedIn) {
+            event.preventDefault(); // Mencegah navigasi ke halaman lain
+            alert("Anda harus login terlebih dahulu untuk mengakses halaman ini!");
+            window.location.href = "login.php"; // Arahkan pengguna ke halaman login
+        }
+    }
+    </script>
 
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script
