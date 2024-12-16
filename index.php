@@ -78,9 +78,6 @@
                           <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
                           <li class="nav-item"><a class="nav-link" href="registration.php">Register</a></li>
                       </ul>
-                  </li>
-                  <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-              </ul>
           </div>
 				</div>
 			</nav>
@@ -501,7 +498,7 @@
                 </div>
               </div>
             </div>
-            <a href="" class="primary-btn">Shop Now</a>
+            <a href="login.php" class="primary-btn">Shop Now</a>
           </div>
           <div class="col-lg-6 no-padding exclusive-right">
             <div class="active-exclusive-product-slider">
