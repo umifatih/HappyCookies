@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $result = $stmt->get_result();
 
         if ($result->num_rows > 0) {
-            $user = $result->fetch_assoc();
+            $user = $result->fetch_assoc(); 
 
             // Verifikasi password (asumsi password di database sudah di-hash)
             if (password_verify($password, $user['password'])) {
@@ -36,5 +36,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "Data pengguna tidak ditemukan.";
         }
     }
+} 
+
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['name'];
+    $email = $_POST['email'];
+    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+
+    $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
+
+    if (mysqli_query($conn, $sql)) {
+        echo "Pendaftaran berhasil!";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
 }
+
+
 ?>

@@ -68,7 +68,7 @@
 							<p>Daftar sekarang dan rasakan layanan cookies lembut tanpa ribet langsung dari genggamanmu!</p>
 							<a class="primary-btn" href="registration.php">Create an Account</a>
 						</div>
-					</div> 
+					</div>  
 				</div>
 				<div class="col-lg-6">
 					<div class="login_form_inner">

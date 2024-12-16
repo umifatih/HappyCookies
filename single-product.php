@@ -28,7 +28,7 @@
 	<link rel="stylesheet" href="css/nouislider.min.css">
 	<link rel="stylesheet" href="css/ion.rangeSlider.css" />
 	<link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css">   
 </head>
 
 <body>
