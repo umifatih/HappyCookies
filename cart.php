@@ -53,114 +53,138 @@
     <!-- End Banner Area -->
 
     <!--================Cart Area =================-->
-    <section class="cart_area">
-        <div class="container">
-            <div class="cart_inner">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Product</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">Quantity</th>
-                                <th scope="col">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <img src="img/cart.jpg" alt="">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>Minimalistic shop for multipurpose use</p>
+                                <section class="cart_area">
+                                <div class="container">
+                                    <div class="cart_inner">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">Produk</th>
+                                                        <th scope="col">Harga</th>
+                                                        <th scope="col">Jumlah</th>
+                                                        <th scope="col">Total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!-- Baris Produk -->
+                                                    <tr>
+                                                        <td>
+                                                            <div class="media">
+                                                                <div class="d-flex">
+                                                                    <img src="img/cart.jpg" alt="">
+                                                                </div>
+                                                                <div class="media-body">
+                                                                    <p>Minimalistic shop for multipurpose use</p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <h5 class="price">25.000</h5>
+                                                        </td>
+                                                        <td>
+                                                            <div class="product_count">
+                                                                <input type="number" class="qty-input" min="0" value="0">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <h5 class="total-price">0</h5>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="media">
+                                                                <div class="d-flex">
+                                                                    <img src="img/cart.jpg" alt="">
+                                                                </div>
+                                                                <div class="media-body">
+                                                                    <p>Minimalistic shop for multipurpose use</p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <h5 class="price">25.000</h5>
+                                                        </td>
+                                                        <td>
+                                                            <div class="product_count">
+                                                                <input type="number" class="qty-input" min="0" value="0">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <h5 class="total-price">0</h5>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="media">
+                                                                <div class="d-flex">
+                                                                    <img src="img/cart.jpg" alt="">
+                                                                </div>
+                                                                <div class="media-body">
+                                                                    <p>Minimalistic shop for multipurpose use</p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <h5 class="price">25.000</h5>
+                                                        </td>
+                                                        <td>
+                                                            <div class="product_count">
+                                                                <input type="number" class="qty-input" min="0" value="0">
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <h5 class="total-price">0</h5>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- Tambahkan baris lain sesuai kebutuhan -->
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
-                                </td>
-                                <td>
-                                    <h5>$360.00</h5>
-                                </td>
-                                <td>
-                                    <div class="product_count">
-                                        <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
-                                            class="input-text qty">
-                                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
-                                            class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
-                                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
-                                            class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$720.00</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <img src="img/cart.jpg" alt="">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>Minimalistic shop for multipurpose use</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$360.00</h5>
-                                </td>
-                                <td>
-                                    <div class="product_count">
-                                        <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
-                                            class="input-text qty">
-                                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
-                                            class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
-                                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
-                                            class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$720.00</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="media">
-                                        <div class="d-flex">
-                                            <img src="img/cart.jpg" alt="">
-                                        </div>
-                                        <div class="media-body">
-                                            <p>Minimalistic shop for multipurpose use</p>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$360.00</h5>
-                                </td>
-                                <td>
-                                    <div class="product_count">
-                                        <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
-                                            class="input-text qty">
-                                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
-                                            class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
-                                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
-                                            class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <h5>$720.00</h5>
-                                </td>
-                            </tr>
-                            <tr class="bottom_button">
-                                <td>
-                                    <a class="gray_btn" href="#">Update Cart</a>
-                                </td>
-                                <td>
+                                </div>
+                            </section>
 
-                                </td>
-                                <td>
+                            <script>
+                                // Fungsi untuk menghitung total di setiap baris
+                                function updateTotal() {
+                                    const rows = document.querySelectorAll("tbody tr"); // Ambil semua baris
+                                    let subtotal = 0; // Untuk menyimpan total keseluruhan
 
-                                </td>
+                                    rows.forEach(row => {
+                                        const priceElement = row.querySelector(".price");
+                                        const qtyInput = row.querySelector(".qty-input");
+                                        const totalElement = row.querySelector(".total-price");
+
+                                        // Ambil nilai harga dan jumlah
+                                        const price = parseFloat(priceElement.innerText.replace("$", ""));
+                                        const qty = parseInt(qtyInput.value);
+
+                                        // Hitung total harga untuk baris ini
+                                        const total = price * qty;
+                                        totalElement.innerText = `${total.toFixed(3)}`;
+
+                                        subtotal += total; // Tambahkan ke subtotal
+                                    });
+
+                                    // Update subtotal di bawah tabel
+                                    document.getElementById("subtotal").innerText = `${subtotal.toFixed(3)}`;
+                                }
+
+                                // Tambahkan event listener ke input jumlah
+                                document.querySelectorAll(".qty-input").forEach(input => {
+                                    input.addEventListener("input", updateTotal);
+                                });
+
+                                // Inisialisasi hitung total saat halaman pertama kali dimuat
+                                document.addEventListener("DOMContentLoaded", updateTotal);
+                            </script>
+
+                            <!-- Subtotal -->
+                            <div style="text-align: right; margin-top: 20px;">
+                                <h5>Subtotal: <span id="subtotal">0</span></h5>
+                            </div>
+
                                 <td>
                                     <div class="cupon_text d-flex align-items-center">
                                         <input type="text" placeholder="Coupon Code">
@@ -180,7 +204,7 @@
                                     <h5>Subtotal</h5>
                                 </td>
                                 <td>
-                                    <h5>$2160.00</h5>
+                                    <h5>0</h5>
                                 </td>
                             </tr>
                             <tr class="shipping_area">
