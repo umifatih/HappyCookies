@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/nouislider.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body id="category">
@@ -64,7 +65,7 @@
 						<li class="main-nav-list"><a data-toggle="collapse" href="#cookies" aria-expanded="false" aria-controls="cookies"><span
 								 class="lnr lnr-arrow-right"></span> Soft Cookies</a>
 							<ul class="collapse" id="cookies" data-toggle="collapse" aria-expanded="false" aria-controls="cookies">
-								<li class="main-nav-list child"><a href="single-product-rv.php">Red Velvet</a></li>
+								<li class="main-nav-list child"><a href="single-product-rv1.php">Red Velvet</a></li>
 								<li class="main-nav-list child"><a href="#">Double Choco</a></li>
 								<li class="main-nav-list child"><a href="#">Matcha</a></li>
 								<li class="main-nav-list child"><a href="#">Biscoffies</a></li>
@@ -74,19 +75,42 @@
 						<li class="main-nav-list"><a data-toggle="collapse" href="#kuetart" aria-expanded="false" aria-controls="kuetart"><span
 								 class="lnr lnr-arrow-right"></span>Mini Cookies</a>
 							<ul class="collapse" id="kuetart" data-toggle="collapse" aria-expanded="false" aria-controls="kuetart">
+<<<<<<< HEAD
 								<li class="main-nav-list child"><a href="#">Tiramisu </a></li>
 								<li class="main-nav-list child"><a href="#">Choco </a></li>
 								<li class="main-nav-list child"><a href="#">Black Forest</a></li>
 								<li class="main-nav-list child"><a href="#">Mocca</a></li>
+=======
+								<li class="main-nav-list child"><a href="single-product-tart1.php">Tiramisu Cake</a></li>
+								<li class="main-nav-list child"><a href="#">Peach Cake</a></li>
+								<li class="main-nav-list child"><a href="#">Choco Cake</a></li>
+								<li class="main-nav-list child"><a href="#">Mocca Cake</a></li>
+>>>>>>> 639f6cd218159f005c3925270e156eb51af365c0
 							</ul>
 						</li>
 						<li class="main-nav-list"><a data-toggle="collapse" href="#Brownies" aria-expanded="false" aria-controls="Brownies"><span
 								 class="lnr lnr-arrow-right"></span>Cookie Bomb</a>
 							<ul class="collapse" id="Brownies" data-toggle="collapse" aria-expanded="false" aria-controls="Brownies">
+<<<<<<< HEAD
 								<li class="main-nav-list child"><a href="#"> Matcha</a></li>
 								<li class="main-nav-list child"><a href="#"> Original</a></li>
 								<li class="main-nav-list child"><a href="#"> Tiramisu</a></li>
 								<li class="main-nav-list child"><a href="#"> Cheese</a></li>
+=======
+								<li class="main-nav-list child"><a href="single-product-brownies1.php">Brownies Bite</a></li>
+								<li class="main-nav-list child"><a href="#">Brownies Matcha</a></li>
+								<li class="main-nav-list child"><a href="#">Brownies Original</a></li>
+								<li class="main-nav-list child"><a href="#">Brownies Tiramisu</a></li>
+								<li class="main-nav-list child"><a href="#">Brownies Choco Crunchy</a></li>
+							</ul>
+						</li>
+						<li class="main-nav-list"><a data-toggle="collapse" href="#pudding" aria-expanded="false" aria-controls="pudding"><span
+								 class="lnr lnr-arrow-right"></span>Pudding</a>
+							<ul class="collapse" id="pudding" data-toggle="collapse" aria-expanded="false" aria-controls="pudding">
+								<li class="main-nav-list child"><a href="single-product-pudding1.php">Puding Coklat</a></li>
+								<li class="main-nav-list child"><a href="single-product-pudding2.php">Puding Vanila</a></li>
+								<li class="main-nav-list child"><a href="#">Puding Taro</a></li>
+>>>>>>> 639f6cd218159f005c3925270e156eb51af365c0
 							</ul>
 						</li>
 					</ul>
@@ -131,7 +155,7 @@
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="single-product-rv.php" class="social-info">
+										<a href="single-product-rv1.php" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -142,7 +166,7 @@
 						<!-- single product -->
 						<div class="col-lg-4 col-md-6">
 							<div class="single-product">
-								<img class="img-fluid" src="img/category/cookies1.jpeg" alt="">
+								<img class="img-fluid" src="img/category/cookies2.jpeg" alt="">
 								<div class="product-details">
 									<h6>COOKIES DOUBLE CHOCO</h6>
 									<div class="price">
@@ -166,9 +190,9 @@
 						<!-- single product -->
 						<div class="col-lg-4 col-md-6">
 							<div class="single-product">
-								<img class="img-fluid" src="img/category/cookies1.jpeg" alt="">
+								<img class="img-fluid" src="img/category/cookies4.jpeg" alt="">
 								<div class="product-details">
-									<h6>COOKIES DOUBLE CHOCO </h6>
+									<h6>COOKIES MATCHA</h6>
 									<div class="price">
 										<h6>Rp 10.000</h6>
 										<h6 class="l-through">RP 20.000</h6>
@@ -176,6 +200,54 @@
 									<div class="prd-bottom">
 
 										<a href="cart.php" class="social-info">
+											<span class="ti-bag"></span>
+											<p class="hover-text">add to bag</p>
+										</a>
+										<a href="" class="social-info">
+											<span class="lnr lnr-move"></span>
+											<p class="hover-text">view more</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- single product -->
+						<div class="col-lg-4 col-md-6">
+							<div class="single-product">
+								<img class="img-fluid" src="img/product-list/Tiramisu Layer Cake.jpeg" alt="">
+								<div class="product-details">
+									<h6>Tiramisu Tart</h6>
+									<div class="price">
+										<h6>Rp 150.000</h6>
+										<h6 class="l-through">RP 200.000</h6>
+									</div>
+									<div class="prd-bottom">
+
+										<a href="" class="social-info">
+											<span class="ti-bag"></span>
+											<p class="hover-text">add to bag</p>
+										</a>
+										<a href="single-product-tart1.php" class="social-info">
+											<span class="lnr lnr-move"></span>
+											<p class="hover-text">view more</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- single product -->
+						<div class="col-lg-4 col-md-6">
+							<div class="single-product">
+								<img class="img-fluid" src="img/product-list/peach tart.jpg" alt="">
+								<div class="product-details">
+									<h6>Peach Tart</h6>
+									<div class="price">
+										<h6>Rp 180.000</h6>
+										<h6 class="l-through">RP 20.000</h6>
+									</div>
+									<div class="prd-bottom">
+
+										<a href="" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
@@ -214,9 +286,9 @@
 						<!-- single product -->
 						<div class="col-lg-4 col-md-6">
 							<div class="single-product">
-								<img class="img-fluid" src="img/category/cookies1.jpeg" alt="">
+								<img class="img-fluid" src="img/product-list/redvelvetcookies.jpeg" alt="">
 								<div class="product-details">
-									<h6>COOKIES DOUBLE CHOCO </h6>
+									<h6>CREAM CHESE RED VELVET </h6>
 									<div class="price">
 										<h6>Rp 10.000</h6>
 										<h6 class="l-through">RP 20.000</h6>
@@ -227,7 +299,7 @@
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href="single-product-rv1.php" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -238,9 +310,9 @@
 						<!-- single product -->
 						<div class="col-lg-4 col-md-6">
 							<div class="single-product">
-								<img class="img-fluid" src="img/category/cookies1.jpeg" alt="">
+								<img class="img-fluid" src="img/product-list/redvelvetcookies.jpeg" alt="">
 								<div class="product-details">
-									<h6>COOKIES DOUBLE CHOCO </h6>
+									<h6>CREAM CHESE RED VELVET </h6>
 									<div class="price">
 										<h6>Rp 10.000</h6>
 										<h6 class="l-through">RP 20.000</h6>
@@ -251,7 +323,7 @@
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href="single-product-rv1.php" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -259,6 +331,7 @@
 								</div>
 							</div>
 						</div>
+						
 					</div>
 				</section>
 			</div>

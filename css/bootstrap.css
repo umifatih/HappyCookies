@@ -523,6 +523,77 @@ mark {
     max-width: 100%;
     height: auto
 }
+/* Styling umum untuk produk */
+.single-product {
+    border: 1px solid #f0f0f0; /* Tambahkan garis tipis agar lebih rapi */
+    border-radius: 8px; /* Membuat sudut gambar lebih halus */
+    overflow: hidden; /* Menghindari elemen overflow */
+    margin-bottom: 30px; /* Jarak antar produk */
+    text-align: center; /* Pusatkan konten */
+    background-color: #fff; /* Warna latar putih */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    transition: all 0.3s ease-in-out;
+}
+
+.single-product:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Efek hover */
+    transform: translateY(-5px); /* Menggeser elemen ke atas saat hover */
+}
+
+/* Ukuran dan penyesuaian gambar */
+.single-product img {
+    width: 100%; /* Gambar selalu mengisi lebar div */
+    height: 250px; /* Tetapkan tinggi gambar seragam */
+    object-fit: cover; /* Memastikan gambar tidak melar */
+    border-bottom: 1px solid #f0f0f0; /* Pemisah gambar dengan konten */
+}
+
+/* Styling judul produk */
+.product-details h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0 5px;
+    color: #333; /* Warna teks lebih gelap */
+}
+
+/* Harga produk */
+.price h6 {
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ff7f50; /* Warna harga */
+}
+
+.price .l-through {
+    text-decoration: line-through;
+    color: #888; /* Warna harga coret */
+}
+
+/* Tombol aksi */
+.prd-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.social-info {
+    display: inline-block;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-info:hover {
+    color: #ff7f50; /* Warna saat di-hover */
+}
+
+.social-info p {
+    margin: 0;
+}
+
 
 .figure {
     display: inline-block
