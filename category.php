@@ -64,8 +64,7 @@
 						<li class="main-nav-list"><a data-toggle="collapse" href="#cookies" aria-expanded="false" aria-controls="cookies"><span
 								 class="lnr lnr-arrow-right"></span> Soft Cookies</a>
 							<ul class="collapse" id="cookies" data-toggle="collapse" aria-expanded="false" aria-controls="cookies">
-								<li class="main-nav-list child"><a href="#">All Product</a></li>
-								<li class="main-nav-list child"><a href="#">Red Velvet</a></li>
+								<li class="main-nav-list child"><a href="single-product-rv.php">Red Velvet</a></li>
 								<li class="main-nav-list child"><a href="#">Double Choco</a></li>
 								<li class="main-nav-list child"><a href="#">Matcha</a></li>
 								<li class="main-nav-list child"><a href="#">Biscoffies</a></li>
@@ -137,9 +136,9 @@
 						<!-- single product -->
 						<div class="col-lg-4 col-md-6">
 							<div class="single-product">
-								<img class="img-fluid" src="img/category/cookies1.jpeg" alt="">
+								<img class="img-fluid" src="img/product-list/redvelvetcookies.jpeg" alt="">
 								<div class="product-details">
-									<h6>COOKIES DOUBLE CHOCO </h6>
+									<h6>CREAM CHESE RED VELVET </h6>
 									<div class="price">
 										<h6>Rp 10.000</h6>
 										<h6 class="l-through">RP 20.000</h6>
@@ -150,7 +149,7 @@
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href="single-product-rv.php" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -174,7 +173,7 @@
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="single-product.php" class="social-info">
+										<a href="#" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>

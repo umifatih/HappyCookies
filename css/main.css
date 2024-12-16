@@ -4018,10 +4018,10 @@ label {
   margin-top: 60px; }
   .product_description_area .nav.nav-tabs {
     background: #e8f0f2;
-    text-align: center;
+    text-align: start;
     display: block;
     border: none;
-    padding: 10px 0px; }
+    padding: 10px 15px; }
     .product_description_area .nav.nav-tabs li {
       display: inline-block;
       margin-right: 7px; }
