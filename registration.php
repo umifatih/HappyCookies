@@ -35,7 +35,7 @@
 	<!-- Start Header Area -->
 	 <?php 
 	 include 'header.php'; 
-	 include 'koneksi.php';
+	
 	 ?>
 	<!-- End Header Area -->
 
