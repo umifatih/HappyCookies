@@ -4761,6 +4761,103 @@ input[type=submit].btn-block {
     margin-bottom: 15px
 }
 
+/* General Styles */
+.review {
+    text-align: left; /* Menata teks ke kiri */
+  }
+  
+  .review-head {
+    border-radius: 10px; /* Membuat sudut card lebih lembut */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .review-head:hover {
+    transform: translateY(-10px); /* Animasi hover */
+  }
+  
+  .review-person img {
+    width: 60px; /* Ukuran foto avatar */
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .review-person h5 {
+    font-size: 1rem; /* Ukuran nama */
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
+  .review-person small {
+    color: #6c757d; /* Warna teks jabatan */
+  }
+  
+  .section-padding {
+    padding: 60px 0; /* Memberikan padding atas dan bawah */
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa; /* Warna background lembut */
+  }
+  
+  .theme-shadow {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+  }
+  
+  .line {
+    height: 3px;
+    width: 80px;
+    margin: 10px auto 20px auto;
+    background-color: #ff9800; /* Garis pemisah */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .review-person img {
+      width: 50px;
+      height: 50px;
+    }
+    .review-head {
+      padding: 1rem;
+    }
+  }
+  
+/* Garis kuning di bawah judul */
+
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: orange; /* Warna garis kuning */
+    margin: 5px 0 15px 0; /* Atur jarak vertikal garis */
+    display: block; /* Pastikan garis tampil sebagai elemen blok */
+  }
+  
+  
+  /* Untuk teks rata kanan Follow Us */
+  .text-end {
+    text-align: right;
+  }
+  
+  /* Garis kuning untuk Follow Us rata kanan */
+  .ms-auto {
+    margin-left: auto;
+  }
+  
+  /* Icon sosial media */
+  .footer-social a {
+    margin-left: 10px; /* Jarak antar ikon */
+    color: #fff; /* Warna ikon */
+  }
+  
+  .footer-social a:hover {
+    color: orange; /* Warna ikon saat hover */
+  }
+  
+  /* Untuk teks di Contact rata tengah */
+  .text-center {
+    text-align: center;
+  }
+  
+  
 @media (min-width:576px) {
     .card-group {
         -ms-flex-flow: row wrap;

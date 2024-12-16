@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/fav.png" />
+    <link rel="shortcut icon" href="img/logo kukis.png" />
     <!-- Author Meta -->
     <meta name="author" content="CodePixar" />
     <!-- Meta Description -->
@@ -17,7 +17,7 @@
     <!-- meta character set -->
     <meta charset="UTF-8" />
     <!-- Site Title -->
-    <title>Karma Shop</title>
+    <title>Happy Cookies</title>
     <!--
 		CSS
 		============================================= -->
@@ -293,7 +293,7 @@
             <!-- single product -->
             <div class="col-lg-3 col-md-6">
               <div class="single-product">
-                <img class="img-fluid" src="img/product/p1.jpg" alt="" />
+                <img class="img-fluid" src="img/product/p1.jpeg" alt="" />
                 <div class="product-details">
                   <h6>addidas New Hammer sole for Sports person</h6>
                   <div class="price">
@@ -324,7 +324,7 @@
             <!-- single product -->
             <div class="col-lg-3 col-md-6">
               <div class="single-product">
-                <img class="img-fluid" src="img/product/p2.jpg" alt="" />
+                <img class="img-fluid" src="img/product/p2.jpeg" alt="" />
                 <div class="product-details">
                   <h6>addidas New Hammer sole for Sports person</h6>
                   <div class="price">
@@ -355,7 +355,7 @@
             <!-- single product -->
             <div class="col-lg-3 col-md-6">
               <div class="single-product">
-                <img class="img-fluid" src="img/product/p3.jpg" alt="" />
+                <img class="img-fluid" src="img/product/p3.jpeg" alt="" />
                 <div class="product-details">
                   <h6>addidas New Hammer sole for Sports person</h6>
                   <div class="price">
@@ -386,7 +386,7 @@
             <!-- single product -->
             <div class="col-lg-3 col-md-6">
               <div class="single-product">
-                <img class="img-fluid" src="img/product/p4.jpg" alt="" />
+                <img class="img-fluid" src="img/product/p4.jpeg" alt="" />
                 <div class="product-details">
                   <h6>addidas New Hammer sole for Sports person</h6>
                   <div class="price">
@@ -414,133 +414,11 @@
                 </div>
               </div>
             </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img class="img-fluid" src="img/product/p5.jpg" alt="" />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img class="img-fluid" src="img/product/p6.jpg" alt="" />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img class="img-fluid" src="img/product/p7.jpg" alt="" />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img class="img-fluid" src="img/product/p8.jpg" alt="" />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
+
       <!-- single product slide -->
       <div class="single-product-slider">
         <div class="container">
@@ -559,7 +437,7 @@
             <!-- single product -->
             <div class="col-lg-3 col-md-6">
               <div class="single-product">
-                <img class="img-fluid" src="img/product/p6.jpg" alt="" />
+                <img class="img-fluid" src="img/product/p5.jpeg" alt="" />
                 <div class="product-details">
                   <h6>addidas New Hammer sole for Sports person</h6>
                   <div class="price">
@@ -590,7 +468,7 @@
             <!-- single product -->
             <div class="col-lg-3 col-md-6">
               <div class="single-product">
-                <img class="img-fluid" src="img/product/p8.jpg" alt="" />
+                <img class="img-fluid" src="img/product/p1.jpeg" alt="" />
                 <div class="product-details">
                   <h6>addidas New Hammer sole for Sports person</h6>
                   <div class="price">
@@ -621,7 +499,7 @@
             <!-- single product -->
             <div class="col-lg-3 col-md-6">
               <div class="single-product">
-                <img class="img-fluid" src="img/product/p3.jpg" alt="" />
+                <img class="img-fluid" src="img/product/p2.jpeg" alt="" />
                 <div class="product-details">
                   <h6>addidas New Hammer sole for Sports person</h6>
                   <div class="price">
@@ -652,7 +530,7 @@
             <!-- single product -->
             <div class="col-lg-3 col-md-6">
               <div class="single-product">
-                <img class="img-fluid" src="img/product/p5.jpg" alt="" />
+                <img class="img-fluid" src="img/product/p4.jpeg" alt="" />
                 <div class="product-details">
                   <h6>addidas New Hammer sole for Sports person</h6>
                   <div class="price">
@@ -680,130 +558,8 @@
                 </div>
               </div>
             </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img class="img-fluid" src="img/product/p1.jpg" alt="" />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img class="img-fluid" src="img/product/p4.jpg" alt="" />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img class="img-fluid" src="img/product/p1.jpg" alt="" />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- single product -->
-            <div class="col-lg-3 col-md-6">
-              <div class="single-product">
-                <img class="img-fluid" src="img/product/p8.jpg" alt="" />
-                <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
-                  <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
-                  </div>
-                  <div class="prd-bottom">
-                    <a href="" class="social-info">
-                      <span class="ti-bag"></span>
-                      <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
+           
           </div>
         </div>
       </div>
@@ -886,295 +642,212 @@
     </section>
     <!-- End exclusive deal Area -->
 
-    <!-- Start brand Area -->
-    <section class="brand-area section_gap">
-      <div class="container">
-        <div class="row">
-          <a class="col single-img" href="#">
-            <img
-              class="img-fluid d-block mx-auto"
-              src="img/brand/1.png"
-              alt=""
-            />
-          </a>
-          <a class="col single-img" href="#">
-            <img
-              class="img-fluid d-block mx-auto"
-              src="img/brand/2.png"
-              alt=""
-            />
-          </a>
-          <a class="col single-img" href="#">
-            <img
-              class="img-fluid d-block mx-auto"
-              src="img/brand/3.png"
-              alt=""
-            />
-          </a>
-          <a class="col single-img" href="#">
-            <img
-              class="img-fluid d-block mx-auto"
-              src="img/brand/4.png"
-              alt=""
-            />
-          </a>
-          <a class="col single-img" href="#">
-            <img
-              class="img-fluid d-block mx-auto"
-              src="img/brand/5.png"
-              alt=""
-            />
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- End brand Area -->
-
     <!-- Start related-product Area -->
-    <section class="related-product-area section_gap_bottom">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <div class="section-title">
-              <h1>Deals of the Week</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
+    <section id="reviews" class="section-padding bg-light">
+  <div class="container">
+    <!-- Judul Section -->
+    <div class="row">
+      <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+        <div class="section-title">
+          <h1 class="display-4 fw-semibold">Testimonials</h1>
+          <div class="line"></div>
+          <p>Kami berkomitmen memberikan pengalaman laundry terbaik yang diakui oleh pelanggan setia kami</p>
         </div>
-        <div class="row">
-          <div class="col-lg-9">
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r1.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r2.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r3.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r5.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r6.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6 mb-20">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r7.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r9.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r10.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="single-related-product d-flex">
-                  <a href="#"><img src="img/r11.jpg" alt="" /></a>
-                  <div class="desc">
-                    <a href="#" class="title">Black lace Heels</a>
-                    <div class="price">
-                      <h6>$189.00</h6>
-                      <h6 class="l-through">$210.00</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      </div>
+    </div>
+
+    <!-- Kolom Testimonial -->
+    <div class="row gy-5 gx-4">
+      <!-- Testimonial 1 -->
+      <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+        <div class="review">
+          <div class="review-head p-4 bg-white theme-shadow">
+            <div class="text-warning">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
             </div>
+            <p>Layanan laundry ini benar-benar luar biasa! Pakaian saya selalu kembali dalam kondisi bersih, wangi, dan terawat.</p>
           </div>
-          <div class="col-lg-3">
-            <div class="ctg-right">
-              <a href="#" target="_blank">
-                <img
-                  class="img-fluid d-block mx-auto"
-                  src="img/category/c5.jpg"
-                  alt=""
-                />
-              </a>
+          <div class="review-person mt-4 d-flex align-items-center">
+            <div class="ms-3">
+              <h5>Farah Nur Fauziyyah</h5>
+              <small>Baker</small>
             </div>
           </div>
         </div>
       </div>
-    </section>
+
+      <!-- Testimonial 2 -->
+      <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+        <div class="review">
+          <div class="review-head p-4 bg-white theme-shadow">
+            <div class="text-warning">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <p>Prosesnya cepat dan hasilnya memuaskan. Sofa saya yang penuh noda kini terlihat seperti baru lagi!</p>
+          </div>
+          <div class="review-person mt-4 d-flex align-items-center">
+            <div class="ms-3">
+              <h5>Haruto Watanabe</h5>
+              <small>Pegawai</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+        <div class="review">
+          <div class="review-head p-4 bg-white theme-shadow">
+            <div class="text-warning">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <p>Bedcover saya sekarang sangat bersih dan harum. Tidur pun jadi lebih nyenyak. Terima kasih untuk layanan hebatnya!</p>
+          </div>
+          <div class="review-person mt-4 d-flex align-items-center">
+            <div class="ms-3">
+              <h5>Zulfika Ajrun</h5>
+              <small>Full Stack Developer</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+        <div class="review">
+          <div class="review-head p-4 bg-white theme-shadow">
+            <div class="text-warning">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <p>Saya sangat merekomendasikan layanan ini. Kasur saya yang sebelumnya berdebu kini kembali nyaman digunakan.</p>
+          </div>
+          <div class="review-person mt-4 d-flex align-items-center">
+            <div class="ms-3">
+              <h5>Alya Maura Maharani</h5>
+              <small>AI Developer</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 5 -->
+      <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+        <div class="review">
+          <div class="review-head p-4 bg-white theme-shadow">
+            <div class="text-warning">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <p>Sangat profesional dan ramah! Sepatu favorit saya terlihat seperti baru lagi. Pasti akan kembali menggunakan layanan ini.</p>
+          </div>
+          <div class="review-person mt-4 d-flex align-items-center">
+            <div class="ms-3">
+              <h5>Amin Triana</h5>
+              <small>Desainer</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 6 -->
+      <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
+        <div class="review">
+          <div class="review-head p-4 bg-white theme-shadow">
+            <div class="text-warning">
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+            <p>Boneka kesayangan anak saya berhasil dibersihkan dengan sangat baik. Anak saya sangat senang!</p>
+          </div>
+          <div class="review-person mt-4 d-flex align-items-center">
+            
+            <div class="ms-3">
+              <h5>Arion Adiwangsa</h5>
+              <small>Orang Tua</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
     <!-- End related-product Area -->
 
     <!-- start footer Area -->
     <footer class="footer-area section_gap">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>About Us</h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore dolore magna aliqua.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Newsletter</h6>
-              <p>Stay update with our latest</p>
-              <div class="" id="mc_embed_signup">
-                <form
-                  target="_blank"
-                  novalidate="true"
-                  action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                  method="get"
-                  class="form-inline"
-                >
-                  <div class="d-flex flex-row">
-                    <input
-                      class="form-control"
-                      name="EMAIL"
-                      placeholder="Enter Email"
-                      onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Enter Email '"
-                      required=""
-                      type="email"
-                    />
-
-                    <button class="click-btn btn btn-default">
-                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                    </button>
-                    <div style="position: absolute; left: -5000px">
-                      <input
-                        name="b_36c4fd991d266f23781ded980_aefe40901a"
-                        tabindex="-1"
-                        value=""
-                        type="text"
-                      />
-                    </div>
-
-                    <!-- <div class="col-lg-4 col-md-4">
-												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-											</div>  -->
-                  </div>
-                  <div class="info"></div>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single-footer-widget mail-chimp">
-              <h6 class="mb-20">Instragram Feed</h6>
-              <ul class="instafeed d-flex flex-wrap">
-                <li><img src="img/i1.jpg" alt="" /></li>
-                <li><img src="img/i2.jpg" alt="" /></li>
-                <li><img src="img/i3.jpg" alt="" /></li>
-                <li><img src="img/i4.jpg" alt="" /></li>
-                <li><img src="img/i5.jpg" alt="" /></li>
-                <li><img src="img/i6.jpg" alt="" /></li>
-                <li><img src="img/i7.jpg" alt="" /></li>
-                <li><img src="img/i8.jpg" alt="" /></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h6>Follow Us</h6>
-              <p>Let us be social</p>
-              <div class="footer-social d-flex align-items-center">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-dribbble"></i></a>
-                <a href="#"><i class="fa fa-behance"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="footer-bottom d-flex justify-content-center align-items-center flex-wrap"
-        >
-          <p class="footer-text m-0">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-            All rights reserved | This template is made with
-            <i class="fa fa-heart-o" aria-hidden="true"></i> by
-            <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  <div class="container">
+    <div class="row">
+      <!-- About Us (di kiri) -->
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="single-footer-widget">
+          <h6>About Us</h6>
+          <div class="line mb-3"></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore dolore magna aliqua.
           </p>
         </div>
       </div>
-    </footer>
+
+      <!-- Contact (di tengah) -->
+      <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+        <div class="single-footer-widget">
+          <h6>Contact</h6>
+          <div class="line mb-3 mx-auto"></div>
+          <ul class="list-unstyled">
+            <li>Cilacap, IDN 53213</li>
+            <li>(+62) 856 0177 8422</li>
+            <li>234110601047@mhs.uinsaizu.ac.id</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Follow Us (di kanan) -->
+      <div class="col-lg-3 col-md-6 col-sm-6 text-end">
+        <div class="single-footer-widget">
+          <h6>Follow Us</h6>
+          <div class="line mb-3 ms-auto"></div>
+          <p>Let us be social</p>
+          <div class="footer-social d-flex justify-content-end align-items-center">
+            <a href="https://www.instagram.com/thsarchive"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/umifatih"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/umi-fatihaturrohmah-9a1ba9270/"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+      <p class="footer-text m-0">
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        All rights reserved | This template is made with
+        <i class="fa fa-heart-o" aria-hidden="true"></i> by
+        <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
     <!-- End footer Area -->
 
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
