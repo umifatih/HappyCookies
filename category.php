@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/nouislider.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body id="category">
@@ -94,7 +95,7 @@
 								 class="lnr lnr-arrow-right"></span>Pudding</a>
 							<ul class="collapse" id="pudding" data-toggle="collapse" aria-expanded="false" aria-controls="pudding">
 								<li class="main-nav-list child"><a href="single-product-pudding1.php">Puding Coklat</a></li>
-								<li class="main-nav-list child"><a href="#">Puding Vanila</a></li>
+								<li class="main-nav-list child"><a href="single-product-pudding2.php">Puding Vanila</a></li>
 								<li class="main-nav-list child"><a href="#">Puding Taro</a></li>
 							</ul>
 						</li>
@@ -276,6 +277,55 @@
 								</div>
 							</div>
 						</div>
+						<!-- single product -->
+						<div class="col-lg-4 col-md-6">
+							<div class="single-product">
+								<img class="img-fluid" src="img/product-list/redvelvetcookies.jpeg" alt="">
+								<div class="product-details">
+									<h6>CREAM CHESE RED VELVET </h6>
+									<div class="price">
+										<h6>Rp 10.000</h6>
+										<h6 class="l-through">RP 20.000</h6>
+									</div>
+									<div class="prd-bottom">
+
+										<a href="" class="social-info">
+											<span class="ti-bag"></span>
+											<p class="hover-text">add to bag</p>
+										</a>
+										<a href="single-product-rv1.php" class="social-info">
+											<span class="lnr lnr-move"></span>
+											<p class="hover-text">view more</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- single product -->
+						<div class="col-lg-4 col-md-6">
+							<div class="single-product">
+								<img class="img-fluid" src="img/product-list/redvelvetcookies.jpeg" alt="">
+								<div class="product-details">
+									<h6>CREAM CHESE RED VELVET </h6>
+									<div class="price">
+										<h6>Rp 10.000</h6>
+										<h6 class="l-through">RP 20.000</h6>
+									</div>
+									<div class="prd-bottom">
+
+										<a href="" class="social-info">
+											<span class="ti-bag"></span>
+											<p class="hover-text">add to bag</p>
+										</a>
+										<a href="single-product-rv1.php" class="social-info">
+											<span class="lnr lnr-move"></span>
+											<p class="hover-text">view more</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</section>
 				<!-- End Best Seller -->
