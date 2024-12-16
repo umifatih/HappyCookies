@@ -565,9 +565,12 @@
         <div class="review">
           <div class="review-head p-4 bg-white theme-shadow">
             <div class="text-warning">
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
+            <i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+              
             </div>
             <p>Cookies-nya benar-benar enak! Tekstur renyah dan rasanya pas di lidah. Sempurna untuk camilan sore hari.</p>
           </div>
@@ -585,9 +588,11 @@
         <div class="review">
           <div class="review-head p-4 bg-white theme-shadow">
             <div class="text-warning">
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
+            <i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
             </div>
             <p>Rasanya bikin nagih! Cookies ini cocok untuk menemani kerja atau santai di rumah. Top banget!</p>
           </div>
@@ -605,9 +610,11 @@
         <div class="review">
           <div class="review-head p-4 bg-white theme-shadow">
             <div class="text-warning">
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
+            <i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
             </div>
             <p>Cookies lembut dengan aroma menggoda. Anak-anak saya sangat menyukainya. Pasti pesan lagi!</p>
           </div>
@@ -625,9 +632,11 @@
         <div class="review">
           <div class="review-head p-4 bg-white theme-shadow">
             <div class="text-warning">
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
+            <i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
             </div>
             <p>Varian rasanya unik dan semuanya lezat. Sangat cocok jadi hadiah spesial untuk orang tersayang.</p>
           </div>
@@ -645,9 +654,11 @@
         <div class="review">
           <div class="review-head p-4 bg-white theme-shadow">
             <div class="text-warning">
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
+            <i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
             </div>
             <p>Kualitas cookies premium! Rasa manisnya pas, ditambah kemasan cantik yang menarik. Highly recommended!</p>
           </div>
@@ -665,9 +676,11 @@
         <div class="review">
           <div class="review-head p-4 bg-white theme-shadow">
             <div class="text-warning">
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-              <i class="ri-star-fill"></i>
+            <i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
             </div>
             <p>Cookies ini sempurna! Renyah di luar, lembut di dalam. Cocok jadi teman ngopi di pagi hari.</p>
           </div>
@@ -733,14 +746,12 @@
     <!-- Footer Bottom -->
     <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
       <p class="footer-text m-0">
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        
         Copyright &copy;
         <script>
           document.write(new Date().getFullYear());
         </script>
         All rights reserved by HappyCookies
-        
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
     </div>
   </div>

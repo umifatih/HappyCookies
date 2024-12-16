@@ -8,8 +8,7 @@
           <h6>About Us</h6>
           <div class="line mb-3"></div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore dolore magna aliqua.
+          Kami adalah produsen cookies berkualitas premium yang dibuat dengan bahan-bahan pilihan dan resep terbaik. Setiap gigitan memberikan cita rasa lezat yang sempurna, cocok untuk menemani momen spesial Anda. 
           </p>
         </div>
       </div>
@@ -32,7 +31,7 @@
         <div class="single-footer-widget">
           <h6>Follow Us</h6>
           <div class="line mb-3 ms-auto"></div>
-          <p>Let us be social</p>
+          <p>Ikuti Kami untuk Pengalman lebih baik</p>
           <div class="footer-social d-flex justify-content-end align-items-center">
             <a href="https://www.instagram.com/thsarchive"><i class="fa fa-instagram"></i></a>
             <a href="https://github.com/umifatih"><i class="fa fa-github"></i></a>
@@ -45,15 +44,12 @@
     <!-- Footer Bottom -->
     <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
       <p class="footer-text m-0">
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        
         Copyright &copy;
         <script>
           document.write(new Date().getFullYear());
         </script>
-        All rights reserved | This template is made with
-        <i class="fa fa-heart-o" aria-hidden="true"></i> by
-        <a href="https://colorlib.com" target="_blank">Colorlib</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        All rights reserved by HappyCookies
       </p>
     </div>
   </div>
