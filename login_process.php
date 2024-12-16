@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if (password_verify($password, $user['password'])) {
                 // Login berhasil
                 echo "Login berhasil!";
-                header("Location: header.php");
+                header("Location: index.php");
                 exit(); // Hentikan eksekusi setelah redirect
             } else {
                 // Jika password salah
@@ -41,8 +41,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['name'];
-    $email = $_POST['email'];
-    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+    $email = $_POST['name'];
+    $password = password_verify($_POST['name'], PASSWORD_BCRYPT);
 
     $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
 
