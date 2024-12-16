@@ -58,7 +58,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="login_box_img">
-						<img class="img-fluid" src="img/category/cookies5.jpeg" alt="">
+						<img class="img-fluid" src="img/category/cookies8.jpeg" alt="">
 						<div class="hover">
 							<h4>Baru Disini?</h4>
 							<p>Daftar sekarang dan rasakan layanan cookies lembut tanpa ribet langsung dari genggamanmu!</p>

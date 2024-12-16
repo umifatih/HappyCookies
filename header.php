@@ -32,8 +32,8 @@
                         <li class="nav-item <?= ($current_page == 'cart.php') ? 'active' : '' ?>">
                             <a class="nav-link" href="cart.php">Shopping Cart</a>
                         </li>
-                        <li class="nav-item <?= ($current_page == 'contact.php') ? 'active' : '' ?>">
-                            <a class="nav-link" href="contact.php">Contact</a>
+                        <li class="nav-item <?= ($current_page == 'confirmation.php') ? 'active' : '' ?>">
+                            <a class="nav-link" href="confirmation.php">Confirmation</a>
                         </li>
                     </ul>
                 </div>
