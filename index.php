@@ -68,7 +68,7 @@
 								 aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
-									<li class="nav-item"><a class="nav-link" href="register.php">Register</a></li>
+									<li class="nav-item"><a class="nav-link" href="registration.php">Register</a></li>
 								</ul>
 							</li>
 							<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
@@ -140,8 +140,8 @@
               <div class="f-icon">
                 <img src="img/features/f-icon1.png" alt="" />
               </div>
-              <h6>Free Delivery</h6>
-              <p>Free Shipping on all order</p>
+              <h6>Gratis Ongkir</h6>
+              <p>Gratis untuk setiap pemesanan</p>
             </div>
           </div>
           <!-- single features -->
@@ -150,8 +150,8 @@
               <div class="f-icon">
                 <img src="img/features/f-icon2.png" alt="" />
               </div>
-              <h6>Return Policy</h6>
-              <p>Free Shipping on all order</p>
+              <h6>Garansi Produk</h6>
+              <p>Gratis untuk setiap pemesanan</p>
             </div>
           </div>
           <!-- single features -->
@@ -160,8 +160,8 @@
               <div class="f-icon">
                 <img src="img/features/f-icon3.png" alt="" />
               </div>
-              <h6>24/7 Support</h6>
-              <p>Free Shipping on all order</p>
+              <h6>Dukungan 24/7</h6>
+              <p>Gratis untuk setiap pemesanan</p>
             </div>
           </div>
           <!-- single features -->
@@ -170,8 +170,8 @@
               <div class="f-icon">
                 <img src="img/features/f-icon4.png" alt="" />
               </div>
-              <h6>Secure Payment</h6>
-              <p>Free Shipping on all order</p>
+              <h6>Pembayaran Mudah</h6>
+              <p>Gratis untuk setiap pemesanan</p>
             </div>
           </div>
         </div>
@@ -281,10 +281,9 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
               <div class="section-title">
-                <h1>Latest Products</h1>
+                <h1>Produk Terbaru</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Dibuat dari bahan berkualitas, cookies ini renyah di luar, lembut di dalam. Hadir dalam berbagai rasa yang siap memanjakan lidah Anda!
                 </p>
               </div>
             </div>
@@ -295,28 +294,16 @@
               <div class="single-product">
                 <img class="img-fluid" src="img/product/p1.jpeg" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                  <h6>Choconut Blast</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 12000</h6>
+                    <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <a href="login.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
-                    </a>
+                    </a>             
                   </div>
                 </div>
               </div>
@@ -326,27 +313,15 @@
               <div class="single-product">
                 <img class="img-fluid" src="img/product/p2.jpeg" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                <h6>Choco Prosoerity</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 12000</h6>
+                    <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <a href="login.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
                     </a>
                   </div>
                 </div>
@@ -357,27 +332,15 @@
               <div class="single-product">
                 <img class="img-fluid" src="img/product/p3.jpeg" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                  <h6>chocochip OG</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 12000</h6>
+                    <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <a href="login.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
                     </a>
                   </div>
                 </div>
@@ -388,27 +351,15 @@
               <div class="single-product">
                 <img class="img-fluid" src="img/product/p4.jpeg" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                <h6>Cream Cheese Red Velvet</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 12000</h6>
+                    <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <a href="login.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
                     </a>
                   </div>
                 </div>
@@ -425,10 +376,9 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 text-center">
               <div class="section-title">
-                <h1>Coming Products</h1>
+                <h1>Produk Terbaru</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Cookies spesial dengan rasa gurih dan aroma menggoda, cocok untuk camilan harian atau hadiah istimewa.
                 </p>
               </div>
             </div>
@@ -439,27 +389,15 @@
               <div class="single-product">
                 <img class="img-fluid" src="img/product/p5.jpeg" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                <h6>Birthday Caramel</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 12000</h6>
+                    <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <a href="login.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
                     </a>
                   </div>
                 </div>
@@ -470,27 +408,15 @@
               <div class="single-product">
                 <img class="img-fluid" src="img/product/p1.jpeg" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                <h6>Cookies Coklat</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 12000</h6>
+                    <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <a href="login.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
                     </a>
                   </div>
                 </div>
@@ -501,27 +427,15 @@
               <div class="single-product">
                 <img class="img-fluid" src="img/product/p2.jpeg" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                <h6>Chocolate Melted</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 12000</h6>
+                    <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <a href="login.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
                     </a>
                   </div>
                 </div>
@@ -532,27 +446,15 @@
               <div class="single-product">
                 <img class="img-fluid" src="img/product/p4.jpeg" alt="" />
                 <div class="product-details">
-                  <h6>addidas New Hammer sole for Sports person</h6>
+                <h6>Cream Cheese</h6>
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 12000</h6>
+                    <h6 class="l-through">Rp 20000</h6>
                   </div>
                   <div class="prd-bottom">
-                    <a href="" class="social-info">
+                    <a href="login.php" class="social-info">
                       <span class="ti-bag"></span>
                       <p class="hover-text">add to bag</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-heart"></span>
-                      <p class="hover-text">Wishlist</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-sync"></span>
-                      <p class="hover-text">compare</p>
-                    </a>
-                    <a href="" class="social-info">
-                      <span class="lnr lnr-move"></span>
-                      <p class="hover-text">view more</p>
                     </a>
                   </div>
                 </div>
@@ -573,8 +475,8 @@
           <div class="col-lg-6 no-padding exclusive-left">
             <div class="row clock_sec clockdiv" id="clockdiv">
               <div class="col-lg-12">
-                <h1>Exclusive Hot Deal Ends Soon!</h1>
-                <p>Who are in extremely love with eco friendly system.</p>
+                <h1>Penawaran Menarik akan Berakhir</h1>
+                <p>Rasakan kelezatan cookies lembut sekarang</p>
               </div>
               <div class="col-lg-12">
                 <div class="row clock-wrap">
@@ -606,10 +508,10 @@
                 <img class="img-fluid" src="img/product/cookies1.png" alt="" />
                 <div class="product-details">
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                    <h6>Rp 15.000</h6>
+                    <h6 class="l-through">Rp 20.000</h6>
                   </div>
-                  <h4>addidas New Hammer sole for Sports person</h4>
+                  <h4>Cookies Monster</h4>
                   <div
                     class="add-bag d-flex align-items-center justify-content-center"
                   >
@@ -623,10 +525,10 @@
                 <img class="img-fluid" src="img/product/cookies2.png" alt="" />
                 <div class="product-details">
                   <div class="price">
-                    <h6>$150.00</h6>
-                    <h6 class="l-through">$210.00</h6>
+                  <h6>Rp 15.000</h6>
+                    <h6 class="l-through">Rp 20.000</h6>
                   </div>
-                  <h4>addidas New Hammer sole for Sports person</h4>
+                  <h4>Original Cookies</h4>
                   <div
                     class="add-bag d-flex align-items-center justify-content-center"
                   >
@@ -651,7 +553,7 @@
         <div class="section-title">
           <h1 class="display-4 fw-semibold">Testimonials</h1>
           <div class="line"></div>
-          <p>Kami berkomitmen memberikan pengalaman laundry terbaik yang diakui oleh pelanggan setia kami</p>
+          <p>Kami berkomitmen memberikan Cookies terbaik yang diakui oleh pelanggan setia kami</p>
         </div>
       </div>
     </div>
@@ -667,7 +569,7 @@
               <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
             </div>
-            <p>Layanan laundry ini benar-benar luar biasa! Pakaian saya selalu kembali dalam kondisi bersih, wangi, dan terawat.</p>
+            <p>Cookies-nya benar-benar enak! Tekstur renyah dan rasanya pas di lidah. Sempurna untuk camilan sore hari.</p>
           </div>
           <div class="review-person mt-4 d-flex align-items-center">
             <div class="ms-3">
@@ -687,7 +589,7 @@
               <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
             </div>
-            <p>Prosesnya cepat dan hasilnya memuaskan. Sofa saya yang penuh noda kini terlihat seperti baru lagi!</p>
+            <p>Rasanya bikin nagih! Cookies ini cocok untuk menemani kerja atau santai di rumah. Top banget!</p>
           </div>
           <div class="review-person mt-4 d-flex align-items-center">
             <div class="ms-3">
@@ -707,7 +609,7 @@
               <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
             </div>
-            <p>Bedcover saya sekarang sangat bersih dan harum. Tidur pun jadi lebih nyenyak. Terima kasih untuk layanan hebatnya!</p>
+            <p>Cookies lembut dengan aroma menggoda. Anak-anak saya sangat menyukainya. Pasti pesan lagi!</p>
           </div>
           <div class="review-person mt-4 d-flex align-items-center">
             <div class="ms-3">
@@ -727,7 +629,7 @@
               <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
             </div>
-            <p>Saya sangat merekomendasikan layanan ini. Kasur saya yang sebelumnya berdebu kini kembali nyaman digunakan.</p>
+            <p>Varian rasanya unik dan semuanya lezat. Sangat cocok jadi hadiah spesial untuk orang tersayang.</p>
           </div>
           <div class="review-person mt-4 d-flex align-items-center">
             <div class="ms-3">
@@ -747,7 +649,7 @@
               <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
             </div>
-            <p>Sangat profesional dan ramah! Sepatu favorit saya terlihat seperti baru lagi. Pasti akan kembali menggunakan layanan ini.</p>
+            <p>Kualitas cookies premium! Rasa manisnya pas, ditambah kemasan cantik yang menarik. Highly recommended!</p>
           </div>
           <div class="review-person mt-4 d-flex align-items-center">
             <div class="ms-3">
@@ -767,7 +669,7 @@
               <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
               <i class="ri-star-fill"></i>
             </div>
-            <p>Boneka kesayangan anak saya berhasil dibersihkan dengan sangat baik. Anak saya sangat senang!</p>
+            <p>Cookies ini sempurna! Renyah di luar, lembut di dalam. Cocok jadi teman ngopi di pagi hari.</p>
           </div>
           <div class="review-person mt-4 d-flex align-items-center">
             
@@ -795,8 +697,7 @@
           <h6>About Us</h6>
           <div class="line mb-3"></div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore dolore magna aliqua.
+          Kami adalah produsen cookies berkualitas premium yang dibuat dengan bahan-bahan pilihan dan resep terbaik. Setiap gigitan memberikan cita rasa lezat yang sempurna, cocok untuk menemani momen spesial Anda. 
           </p>
         </div>
       </div>
@@ -819,7 +720,7 @@
         <div class="single-footer-widget">
           <h6>Follow Us</h6>
           <div class="line mb-3 ms-auto"></div>
-          <p>Let us be social</p>
+          <p>Ikuti Kami untuk Pengalman lebih baik</p>
           <div class="footer-social d-flex justify-content-end align-items-center">
             <a href="https://www.instagram.com/thsarchive"><i class="fa fa-instagram"></i></a>
             <a href="https://github.com/umifatih"><i class="fa fa-github"></i></a>
@@ -837,9 +738,8 @@
         <script>
           document.write(new Date().getFullYear());
         </script>
-        All rights reserved | This template is made with
-        <i class="fa fa-heart-o" aria-hidden="true"></i> by
-        <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        All rights reserved by HappyCookies
+        
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
     </div>
