@@ -62,10 +62,10 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="login_box_img">
-						<img class="img-fluid" src="img/login.jpg" alt="">
+						<img class="img-fluid" src="img/category/cookies8.jpeg" alt="">
 						<div class="hover">
-							<h4>New to our website?</h4>
-							<p>There are advances being made in science and technology everyday, and a good example of this is the</p>
+							<h4>Baru Disini?</h4>
+							<p>Daftar sekarang dan rasakan layanan cookies lembut tanpa ribet langsung dari genggamanmu!</p>
 							<a class="primary-btn" href="registration.php">Create an Account</a>
 						</div>
 					</div> 
@@ -91,7 +91,6 @@
 							</div>
 							<div class="col-md-12 form-group">
 								<button type="submit" value="submit" class="primary-btn">Log In</button>
-								<a href="#">Forgot Password?</a>
 							</div>
 						</form>
 					</div>
