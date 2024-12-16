@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = isset($_POST['username']) ? $_POST['username'] : '';
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $password = isset($_POST['password']) ? $_POST['password'] : '';
-    
+
         if ($result->num_rows > 0) {
             $user = $result->fetch_assoc(); 
 
@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if (password_verify($password, $user['password'])) {
                 // Login berhasil
                 echo "Login berhasil!";
-                header("Location: index.php");
+                header("Location: dashboard.php");
                 exit(); // Hentikan eksekusi setelah redirect
             } else {
                 // Jika password salah
