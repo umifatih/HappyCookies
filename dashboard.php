@@ -1,3 +1,19 @@
+<?php
+session_start();
+include 'koneksi.php'; // File koneksi database
+
+// Pastikan user sudah login
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit();
+}
+
+// Ambil data produk dari database
+$query = "SELECT nama_produk, harga_produk, gambar_produk FROM produk";
+$result = $conn->query($query);
+?>
+
+
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
   <head>

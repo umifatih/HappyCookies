@@ -2,47 +2,42 @@
 include 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Ambil input dan validasi
-    $nama_produk = isset($_POST['nama_produk']) ? trim($_POST['nama_produk']) : '';
-    $harga_produk = isset($_POST['harga_produk']) ? (float)$_POST['harga_produk'] : 0;
-    $gambar_produk = isset($_FILES['gambar_produk']) ? $_FILES['gambar_produk'] : null;
+    // Ambil data dari form
+    $nama_produk = $_POST['nama_produk'];
+    $harga_produk = $_POST['harga_produk'];
+    $gambar_produk = $_FILES['gambar_produk'];
 
+    // Validasi input
     if (empty($nama_produk) || empty($harga_produk)) {
-        echo "Nama produk dan harga produk harus diisi.";
-        exit;
+        die("Nama produk dan harga produk harus diisi.");
     }
 
-    // Validasi file gambar
-    if ($gambar_produk && $gambar_produk['error'] == 0) {
-        $allowed_types = ['image/jpeg', 'image/png', 'image/jpg'];
-        $file_type = mime_content_type($gambar_produk['tmp_name']);
+    // Proses unggah gambar
+    if ($gambar_produk['error'] === UPLOAD_ERR_OK) {
+        $upload_dir = 'uploads/';
+        if (!is_dir($upload_dir)) {
+            mkdir($upload_dir, 0755, true);
+        }
 
-        if (in_array($file_type, $allowed_types)) {
-            // Tentukan direktori upload
-            $upload_dir = 'uploads/';
-            $file_name = uniqid() . '_' . basename($gambar_produk['name']);
-            $upload_file = $upload_dir . $file_name;
+        $file_name = uniqid() . '_' . basename($gambar_produk['name']);
+        $upload_file = $upload_dir . $file_name;
 
-            // Pindahkan file gambar
-            if (move_uploaded_file($gambar_produk['tmp_name'], $upload_file)) {
-                // Simpan ke database dengan prepared statement
-                $stmt = $conn->prepare("INSERT INTO produk (nama_produk, harga_produk, gambar_produk) VALUES (?, ?, ?)");
-                $stmt->bind_param("sds", $nama_produk, $harga_produk, $file_name);
+        if (move_uploaded_file($gambar_produk['tmp_name'], $upload_file)) {
+            // Simpan data ke database
+            $stmt = $conn->prepare("INSERT INTO produk (nama_produk, harga_produk, gambar_produk) VALUES (?, ?, ?)");
+            $stmt->bind_param("sds", $nama_produk, $harga_produk, $file_name);
 
-                if ($stmt->execute()) {
-                    echo "Produk berhasil ditambahkan!";
-                } else {
-                    echo "Gagal menyimpan produk: " . $stmt->error;
-                }
-                $stmt->close();
+            if ($stmt->execute()) {
+                echo "Produk berhasil ditambahkan!";
             } else {
-                echo "Gagal mengunggah file.";
+                echo "Gagal menyimpan produk: " . $stmt->error;
             }
+            $stmt->close();
         } else {
-            echo "Format gambar tidak didukung. Hanya JPEG, PNG, atau JPG.";
+            echo "Gagal mengunggah file gambar.";
         }
     } else {
-        echo "Harap unggah gambar produk.";
+        echo "Harap unggah file gambar.";
     }
 
     $conn->close();

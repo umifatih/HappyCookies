@@ -1,3 +1,29 @@
+
+<?php
+session_start();
+include 'koneksi.php'; // Include database connection file
+
+// Check if the user is logged in
+if (!isset($_SESSION['user_id'])) {
+    header("Location: login.php");
+    exit();
+}
+
+$user_id = $_SESSION['user_id']; // Get user_id from session
+
+// Fetch cart data from the database
+$query = "SELECT c.*, p.nama_produk, p.harga_produk, p.gambar_produk
+          FROM cart c
+          JOIN produk p ON c.product_id = p.id_produk
+          WHERE c.user_id = ?";
+$stmt = $conn->prepare($query);
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+
+// Initialize total amount
+$total = 0;
+?>
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -55,38 +81,6 @@
     <!--================Checkout Area =================-->
     <section class="checkout_area section_gap">
         <div class="container">
-            <div class="returning_customer">
-                <div class="check_title">
-                    <h2>Returning Customer? <a href="#">Click here to login</a></h2>
-                </div>
-                <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new
-                    customer, please proceed to the Billing & Shipping section.</p>
-                <form class="row contact_form" action="#" method="post" novalidate="novalidate">
-                    <div class="col-md-6 form-group p_star">
-                        <input type="text" class="form-control" id="name" name="name">
-                        <span class="placeholder" data-placeholder="Username or Email"></span>
-                    </div>
-                    <div class="col-md-6 form-group p_star">
-                        <input type="password" class="form-control" id="password" name="password">
-                        <span class="placeholder" data-placeholder="Password"></span>
-                    </div>
-                    <div class="col-md-12 form-group">
-                        <button type="submit" value="submit" class="primary-btn">login</button>
-                        <div class="creat_account">
-                            <input type="checkbox" id="f-option" name="selector">
-                            <label for="f-option">Remember me</label>
-                        </div>
-                        <a class="lost_pass" href="#">Lost your password?</a>
-                    </div>
-                </form>
-            </div>
-            <div class="cupon_area">
-                <div class="check_title">
-                    <h2>Have a coupon? <a href="#">Click here to enter your code</a></h2>
-                </div>
-                <input type="text" placeholder="Enter coupon code">
-                <a class="tp_btn" href="#">Apply Coupon</a>
-            </div>
             <div class="billing_details">
                 <div class="row">
                     <div class="col-lg-8">
@@ -160,10 +154,24 @@
                         <div class="order_box">
                             <h2>Your Order</h2>
                             <ul class="list">
-                                <li><a href="#">Product <span>Total</span></a></li>
-                                <li><a href="#">Fresh Blackberry <span class="middle">x 02</span> <span class="last">$720.00</span></a></li>
-                                <li><a href="#">Fresh Tomatoes <span class="middle">x 02</span> <span class="last">$720.00</span></a></li>
-                                <li><a href="#">Fresh Brocoli <span class="middle">x 02</span> <span class="last">$720.00</span></a></li>
+                            <?php
+                                // Display products from the cart
+                                if ($result->num_rows > 0) {
+                                    while ($row = $result->fetch_assoc()) {
+                                        $product_name = $row['nama_produk'];
+                                        $product_price = $row['harga_produk'];
+                                        $product_image = $row['gambar_produk'];
+                                        $product_quantity = $row['quantity']; // Assuming quantity column exists in cart table
+                                        $total_price = $product_price * $product_quantity;
+                                        $total += $total_price;
+                                        ?>
+                                        <li>
+                                            <a href="#"><?= $product_name ?> <span class="middle">x <?= $product_quantity ?></span> <span class="last"><?= number_format($total_price, 0, ',', '.') ?></span></a>
+                                        </li>
+                                        <?php
+                                    }
+                                }
+                                ?>
                             </ul>
                             <ul class="list list_2">
                                 <li><a href="#">Subtotal <span>$2160.00</span></a></li>

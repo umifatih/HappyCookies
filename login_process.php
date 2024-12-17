@@ -1,47 +1,42 @@
 <?php
+session_start();
 include 'koneksi.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Ambil data dari form dan validasi keberadaannya
-    $id = isset($_POST['id']) ? $_POST['id'] : '';
-    $username = isset($_POST['username']) ? $_POST['username'] : '';
-    $email = isset($_POST['email']) ? $_POST['email'] : '';
-    $password = isset($_POST['password']) ? $_POST['password'] : '';
+    // Ambil data dari form
+    $username = isset($_POST['username']) ? trim($_POST['username']) : '';
+    $password = isset($_POST['password']) ? trim($_POST['password']) : '';
 
-        if ($result->num_rows > 0) {
-            $user = $result->fetch_assoc(); 
-
-            // Verifikasi password (asumsi password di database sudah di-hash)
-            if (password_verify($password, $user['password'])) {
-                // Login berhasil
-                echo "Login berhasil!";
-                header("Location: dashboard.php");
-                exit(); // Hentikan eksekusi setelah redirect
-            } else {
-                // Jika password salah
-                echo "Password salah.";
-            }
-        } else {
-            // Jika data tidak ditemukan
-            echo "Data pengguna tidak ditemukan.";
-        }
+    // Validasi input
+    if (empty($username) || empty($password)) {
+        echo "Username dan password harus diisi!";
+        exit();
     }
 
+    // Query untuk mencari pengguna berdasarkan username
+    $query = "SELECT * FROM users WHERE username = '$username'";
+    $result = $conn->query($query);
 
+    if ($result->num_rows > 0) {
+        $user = $result->fetch_assoc();
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = $_POST['name'];
-    $email = $_POST['name'];
-    $password = password_verify($_POST['name'], PASSWORD_BCRYPT);
+        // Verifikasi password
+        if (password_verify($password, $user['password'])) {
+            // Login berhasil, simpan data ke sesi
+            $_SESSION['user_id'] = $user['id'];
+            $_SESSION['username'] = $user['username'];
 
-    $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
-
-    if (mysqli_query($conn, $sql)) {
-        echo "Pendaftaran berhasil!";
+            // Redirect ke dashboard
+            echo "Login berhasil!";
+            header("Location: dashboard.php");
+            exit();
+        } else {
+            // Jika password salah
+            echo "Password salah.";
+        }
     } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+        // Jika pengguna tidak ditemukan
+        echo "Username tidak ditemukan.";
     }
 }
-
-
 ?>
