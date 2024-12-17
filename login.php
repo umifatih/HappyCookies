@@ -35,8 +35,6 @@
 	<!-- Start Header Area -->
 	 <?php 
 	 include 'header.php'; 
-	 include 'koneksi.php'; 
-	 include 'login_process.php';
 	 ?>
 	<!-- End Header Area -->
 
