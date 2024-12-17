@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 16, 2024 at 10:54 PM
+-- Generation Time: Dec 17, 2024 at 03:38 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -29,35 +29,23 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `produk` (
   `id_produk` int NOT NULL,
-  `nama_produk` varchar(100) COLLATE utf8mb4_general_ci NOT NULL,
-  `harga_produk` decimal(10,2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `users`
---
-
-CREATE TABLE `users` (
-  `id` int NOT NULL,
-  `username` varchar(200) COLLATE utf8mb4_general_ci NOT NULL,
-  `email` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `password` varchar(225) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+  `nama_produk` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `harga_produk` decimal(10,2) NOT NULL,
+  `gambar_produk` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `users`
+-- Dumping data for table `produk`
 --
 
-INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
-(5, 'farahfozi11@gmail.com', 'farahfozi11@gmail.com', '$2y$10$9Z5XRijngLKavqxMtkyqDe86HYsKwPEGh4pu7OMkUZ6SOcVlFS3v6'),
-(6, 'hdqwafi@gmail.com', 'hdqwafi@gmail.com', '$2y$10$.JmryegBGHcImS4QTUhtnOz.qCxizNPu96DHeGFWVd16tkOUrYYq6'),
-(7, '', '', '$2y$10$DD/m58G5O8t.IecZHcUAvO9suu3fKIa6Kc0ZtrN5xrpvVS1Yzl7Vi'),
-(8, '123456789', '123456789', '$2y$10$xzx2VJi6lpOsDvusx03mYOK1OXDhsk8z1auk0S.B5H5sxUzneDSVO'),
-(9, '123456789', '123456789', ''),
-(10, '123456789', '123456789', ''),
-(11, '123456789', '123456789', '');
+INSERT INTO `produk` (`id_produk`, `nama_produk`, `harga_produk`, `gambar_produk`) VALUES
+(9, 'COOKIES DOUBLE CHOCO', '10000.00', '6760bd15c3c6b_cookies1.jpeg'),
+(10, 'CREAM CHESE RED VELVET', '10000.00', '6760bd483802d_cookies3.jpeg'),
+(11, 'COOKIES MATCHA', '10000.00', '6760bd8806f60_cookies4.jpeg'),
+(12, 'Tiramisu Tart', '150000.00', '6760bdbb0ad41_Tiramisu.jpg'),
+(13, 'Peach Tart', '180000.00', '6760bde6b04e6_Eaton_Cake_22.jpg'),
+(14, 'Brownies Choco Crunchy', '130000.00', '6760be2aa6b22_choco-crunchy.jpg'),
+(15, 'MOCCA TART', '180000.00', '6760c509c6e27_Mocca_butter.jpg');
 
 --
 -- Indexes for dumped tables
@@ -70,12 +58,6 @@ ALTER TABLE `produk`
   ADD PRIMARY KEY (`id_produk`);
 
 --
--- Indexes for table `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
-
---
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -83,13 +65,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `id_produk` int NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_produk` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
