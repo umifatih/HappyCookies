@@ -86,25 +86,21 @@ $total = 0;
                 <div class="row">
                     <div class="col-lg-8">
                         <h3>Billing Details</h3>
-                        <form class="row contact_form" action="#" method="post" novalidate="novalidate">
+                        <form class="row contact_form" action="process_checkout.php" method="post" novalidate="novalidate">
                             <div class="col-md-6 form-group p_star">
-                                <input type="text" class="form-control" id="first" name="name">
-                                <span class="placeholder" data-placeholder="First name"></span>
+                            <input type="text" class="form-control" id="first" name="first_name" placeholder="First name">
                             </div>
                             <div class="col-md-6 form-group p_star">
-                                <input type="text" class="form-control" id="last" name="name">
-                                <span class="placeholder" data-placeholder="Last name"></span>
+                                <input type="text" class="form-control" id="last" name="last_name" placeholder="Last name">
                             </div>
                             <div class="col-md-12 form-group">
                                 <input type="text" class="form-control" id="company" name="company" placeholder="Company name">
                             </div>
                             <div class="col-md-6 form-group p_star">
-                                <input type="text" class="form-control" id="number" name="number">
-                                <span class="placeholder" data-placeholder="Phone number"></span>
+                            <input type="text" class="form-control" id="number" name="phone_number" placeholder="Phone number">
                             </div>
                             <div class="col-md-6 form-group p_star">
-                                <input type="text" class="form-control" id="email" name="compemailany">
-                                <span class="placeholder" data-placeholder="Email Address"></span>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email Address">
                             </div>
                             <div class="col-md-12 form-group p_star">
                                 <select class="country_select">
@@ -114,16 +110,13 @@ $total = 0;
                                 </select>
                             </div>
                             <div class="col-md-12 form-group p_star">
-                                <input type="text" class="form-control" id="add1" name="add1">
-                                <span class="placeholder" data-placeholder="Address line 01"></span>
+                            <input type="text" class="form-control" id="add1" name="address1" placeholder="Address line 01">
                             </div>
                             <div class="col-md-12 form-group p_star">
-                                <input type="text" class="form-control" id="add2" name="add2">
-                                <span class="placeholder" data-placeholder="Address line 02"></span>
+                            <input type="text" class="form-control" id="add2" name="address2" placeholder="Address line 02">
                             </div>
                             <div class="col-md-12 form-group p_star">
-                                <input type="text" class="form-control" id="city" name="city">
-                                <span class="placeholder" data-placeholder="Town/City"></span>
+                            <input type="text" class="form-control" id="city" name="city" placeholder="Town/City">
                             </div>
                             <div class="col-md-12 form-group p_star">
                                 <select class="country_select">
@@ -133,13 +126,7 @@ $total = 0;
                                 </select>
                             </div>
                             <div class="col-md-12 form-group">
-                                <input type="text" class="form-control" id="zip" name="zip" placeholder="Postcode/ZIP">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <div class="creat_account">
-                                    <input type="checkbox" id="f-option2" name="selector">
-                                    <label for="f-option2">Create an account?</label>
-                                </div>
+                            <input type="text" class="form-control" id="zip" name="zip_code" placeholder="Postcode/ZIP">
                             </div>
                             <div class="col-md-12 form-group">
                                 <div class="creat_account">
@@ -147,9 +134,8 @@ $total = 0;
                                     <input type="checkbox" id="f-option3" name="selector">
                                     <label for="f-option3">Ship to a different address?</label>
                                 </div>
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Order Notes"></textarea>
+                                <textarea class="form-control" name="order_notes" id="message" rows="2" placeholder="Order Notes"></textarea>
                             </div>
-                        </form>
                     </div>
                     <div class="col-lg-4">
                         <div class="order_box">
@@ -175,10 +161,12 @@ $total = 0;
                                 ?>
                             </ul>
                             <ul class="list list_2">
-                                <li><a href="#">Subtotal <span>$2160.00</span></a></li>
-                                <li><a href="#">Shipping <span>Flat rate: $50.00</span></a></li>
-                                <li><a href="#">Total <span>$2210.00</span></a></li>
-                            </ul>
+    <li><a href="#">Subtotal <span>Rp <?= number_format($total, 0, ',', '.') ?></span></a></li>
+    <li><a href="#">Shipping <span>Flat rate: Rp 50.000</span></a></li>
+    <?php $grand_total = $total + 50000; ?>
+    <li><a href="#">Total <span>Rp <?= number_format($grand_total, 0, ',', '.') ?></span></a></li>
+</ul>
+
                             <div class="payment_item">
                                 <div class="radion_btn">
                                     <input type="radio" id="f-option5" name="selector">
@@ -203,7 +191,8 @@ $total = 0;
                                 <label for="f-option4">I’ve read and accept the </label>
                                 <a href="#">terms & conditions*</a>
                             </div>
-                            <a class="primary-btn" href="#">Proceed to Paypal</a>
+                            <button type="submit" class="primary-btn">Proceed to Checkout</button>
+                        </form>
                         </div>
                     </div>
                 </div>

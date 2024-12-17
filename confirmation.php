@@ -1,3 +1,38 @@
+<?php
+// Mulai sesi
+session_start();
+
+include 'koneksi.php';
+
+// Ambil order_id dari session atau parameter
+if (isset($_SESSION['order_id'])) {
+    $order_id = $_SESSION['order_id'];
+} else {
+    die("Order not found. Please try again.");
+}
+
+// Ambil data order berdasarkan order_id
+$query = "SELECT * FROM orders WHERE id = ?";
+$stmt = $conn->prepare($query);
+$stmt->bind_param("i", $order_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$order = $result->fetch_assoc();
+
+// Ambil detail order (produk) dengan join produk
+$query_items = "
+    SELECT oi.*, p.nama_produk, p.harga_produk, p.gambar_produk
+    FROM order_items oi
+    JOIN produk p ON oi.product_id = p.id_produk
+    WHERE oi.order_id = ?";
+
+$stmt_items = $conn->prepare($query_items);
+$stmt_items->bind_param("i", $order_id);
+$stmt_items->execute();
+$order_items = $stmt_items->get_result();
+?>
+
+
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -57,28 +92,30 @@
 		<div class="container">
 			<h3 class="title_confirmation">Thank you. Your order has been received.</h3>
 			<div class="row order_d_inner">
-				<div class="col-lg-4">
-					<div class="details_item">
-						<h4>Order Info</h4>
-						<ul class="list">
-							<li><a href="#"><span>Order number</span> : 60235</a></li>
-							<li><a href="#"><span>Date</span> : Los Angeles</a></li>
-							<li><a href="#"><span>Total</span> : USD 2210</a></li>
-							<li><a href="#"><span>Payment method</span> : Check payments</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="details_item">
-						<h4>Billing Address</h4>
-						<ul class="list">
-							<li><a href="#"><span>Street</span> : 56/8</a></li>
-							<li><a href="#"><span>City</span> : Los Angeles</a></li>
-							<li><a href="#"><span>Country</span> : United States</a></li>
-							<li><a href="#"><span>Postcode </span> : 36952</a></li>
-						</ul>
-					</div>
-				</div>
+			<div class="col-lg-4">
+    <div class="details_item">
+        <h4>Order Info</h4>
+        <ul class="list">
+            <li><span>Order number</span> : <?php echo $order['id']; ?></li>
+            <li><span>Date</span> : <?php echo date("d M Y", strtotime($order['created_at'])); ?></li>
+            <li><span>Total</span> : $<?php echo number_format($order['total'], 2); ?></li>
+            <li><span>Payment method</span> : <?php echo $order['payment_method']; ?></li>
+        </ul>
+    </div>
+</div>
+
+<div class="col-lg-4">
+    <div class="details_item">
+        <h4>Billing Address</h4>
+        <ul class="list">
+            <li><span>Street</span> : <?php echo $order['address1']; ?></li>
+            <li><span>City</span> : <?php echo $order['city']; ?></li>
+            <li><span>Country</span> : <?php echo $order['country']; ?></li>
+            <li><span>Postcode</span> : <?php echo $order['zip_code']; ?></li>
+        </ul>
+    </div>
+</div>
+
 				<div class="col-lg-4">
 					<div class="details_item">
 						<h4>Shipping Address</h4>
@@ -94,84 +131,46 @@
 			<div class="order_details_table">
 				<h2>Order Details</h2>
 				<div class="table-responsive">
-					<table class="table">
-						<thead>
-							<tr>
-								<th scope="col">Product</th>
-								<th scope="col">Quantity</th>
-								<th scope="col">Total</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<p>Pixelstore fresh Blackberry</p>
-								</td>
-								<td>
-									<h5>x 02</h5>
-								</td>
-								<td>
-									<p>$720.00</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>Pixelstore fresh Blackberry</p>
-								</td>
-								<td>
-									<h5>x 02</h5>
-								</td>
-								<td>
-									<p>$720.00</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>Pixelstore fresh Blackberry</p>
-								</td>
-								<td>
-									<h5>x 02</h5>
-								</td>
-								<td>
-									<p>$720.00</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<h4>Subtotal</h4>
-								</td>
-								<td>
-									<h5></h5>
-								</td>
-								<td>
-									<p>$2160.00</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<h4>Shipping</h4>
-								</td>
-								<td>
-									<h5></h5>
-								</td>
-								<td>
-									<p>Flat rate: $50.00</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<h4>Total</h4>
-								</td>
-								<td>
-									<h5></h5>
-								</td>
-								<td>
-									<p>$2210.00</p>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php 
+            $subtotal = 0;
+            while ($item = $order_items->fetch_assoc()): 
+                $total_item = $item['price'] * $item['quantity'];
+                $subtotal += $total_item;
+            ?>
+            <tr>
+                <td><?php echo htmlspecialchars($item['product_name']); ?></td>
+                <td>x <?php echo $item['quantity']; ?></td>
+                <td>$<?php echo number_format($total_item, 2); ?></td>
+            </tr>
+            <?php endwhile; ?>
+            <tr>
+                <td><h4>Subtotal</h4></td>
+                <td></td>
+                <td>$<?php echo number_format($subtotal, 2); ?></td>
+            </tr>
+            <tr>
+                <td><h4>Shipping</h4></td>
+                <td></td>
+                <td>Flat rate: $<?php echo number_format($order['shipping_fee'], 2); ?></td>
+            </tr>
+            <tr>
+                <td><h4>Total</h4></td>
+                <td></td>
+                <td>$<?php echo number_format($order['total'], 2); ?></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 			</div>
 		</div>
 	</section>
